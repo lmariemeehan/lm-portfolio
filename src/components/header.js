@@ -49,7 +49,6 @@ export default class Header extends React.Component {
               </div>
               <div className="col-lg-8 align-self-baseline">
                 <p className="text-white-75 font-weight-light mb-5">I'm a full-stack web developer specializing in Isomorphic JavaScript.</p>
-                <a className="btn btn-primary btn-xl js-scroll-trigger" href="#about" onClick={Scroller.handleAnchorScroll}>Find Out More</a>
               </div>
             </div>
           </div>

@@ -36,18 +36,17 @@ export default class IndexPage extends React.Component {
     return (
       <Layout>
         <SEO title="Home"/>
-        <section className="page-section bg-primary" id="about">
+        <section className="page-section bg-secondary" id="about">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
-                <h2 className="text-white mt-0">We've got what you need!</h2>
+                <h2 className="text-white mt-0">About</h2>
                 <hr className="divider light my-4"/>
-                <p className="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up
-                  and
-                  running in no time! Choose one of our open source, free to download, and easy to use themes! No
-                  strings
-                  attached!</p>
-                <a className="btn btn-light btn-xl js-scroll-trigger" href="#services"
+                <p className="text-white-50 mb-4">I've decided to make a career change after four years in payroll accounting
+                 to pursue web development because it embodies what I love to do most, which is to create. After discovering web 
+                 development and spending upwards to a year of learning on my own, I decided to immerse myself in Bloc's (now Thinkful's) web 
+                 development apprenticeship program where my love for code and problem-solving intensified.</p>
+                <a className="btn btn-light btn-xl js-scroll-trigger" href="#skills"
                    onClick={Scroller.handleAnchorScroll}>Get Started!</a>
               </div>
             </div>
