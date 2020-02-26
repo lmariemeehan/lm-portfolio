@@ -47,8 +47,7 @@ export default class IndexPage extends React.Component {
                  development and spending upwards to a year of learning on my own, I decided to immerse myself in Bloc's (now Thinkful's) 
                  full-stack development apprenticeship program where my love for code and problem-solving intensified. Since Bloc, I've made it a 
                  point to learn something new almost everyday and to be a slightly better developer than I was yesterday.</p>
-                <a className="btn btn-light btn-xl js-scroll-trigger" href="#skills"
-                   onClick={Scroller.handleAnchorScroll}>Get Started!</a>
+
               </div>
             </div>
           </div>
@@ -62,21 +61,21 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-gem text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Sturdy Themes</h3>
+                  <h3 className="h4 mb-2">Languages</h3>
                   <p className="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Up to Date</h3>
+                  <h3 className="h4 mb-2">Libraries/Frameworks</h3>
                   <p className="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-globe text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Ready to Publish</h3>
+                  <h3 className="h4 mb-2">Tools</h3>
                   <p className="text-muted mb-0">You can use this design as is, or you can make changes!</p>
                 </div>
               </div>
