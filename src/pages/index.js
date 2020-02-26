@@ -44,8 +44,9 @@ export default class IndexPage extends React.Component {
                 <hr className="divider light my-4"/>
                 <p className="text-white-50 mb-4">I've decided to make a career change after four years in payroll accounting
                  to pursue web development because it embodies what I love to do most, which is to create. After discovering web 
-                 development and spending upwards to a year of learning on my own, I decided to immerse myself in Bloc's (now Thinkful's) web 
-                 development apprenticeship program where my love for code and problem-solving intensified.</p>
+                 development and spending upwards to a year of learning on my own, I decided to immerse myself in Bloc's (now Thinkful's) 
+                 full-stack development apprenticeship program where my love for code and problem-solving intensified. Since Bloc, I've made it a 
+                 point to learn something new almost everyday and to be a slightly better developer than I was yesterday.</p>
                 <a className="btn btn-light btn-xl js-scroll-trigger" href="#skills"
                    onClick={Scroller.handleAnchorScroll}>Get Started!</a>
               </div>
