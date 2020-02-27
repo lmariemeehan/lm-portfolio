@@ -60,7 +60,7 @@ export default class IndexPage extends React.Component {
             <div className="row">
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-gem text-primary mb-4"></i>
+                  <i className="fas fa-4x fa-globe text-primary mb-4"></i>
                   <h3 className="h4 mb-2">Languages</h3>
                   <p className="text-muted mb-0"><i className="fab fa-html5 mr-2"></i>HTML</p>
                   <p className="text-muted mb-0"><i className="fab fa-css3-alt mr-2"></i>CSS</p>
@@ -72,7 +72,11 @@ export default class IndexPage extends React.Component {
                 <div className="mt-5">
                   <i className="fas fa-4x fa-laptop-code text-primary mb-4"></i>
                   <h3 className="h4 mb-2">Libraries/Frameworks</h3>
-                  <p className="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+                  <p className="text-muted mb-0"><i className="fab fa-react mr-2"></i>React</p>
+                  <p className="text-muted mb-0"><i className="fab fa-react mr-2"></i>Gatsby</p>
+                  <p className="text-muted mb-0"><i className="fab fa-react mr-2"></i>Next.js</p>
+                  <p className="text-muted mb-0"><i class="fab fa-bootstrap mr-2"></i>Bootstrap</p>
+                  <p className="text-muted mb-0"><i class="fab fa-sass mr-2"></i>Sass</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
