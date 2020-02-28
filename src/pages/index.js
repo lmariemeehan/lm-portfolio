@@ -7,6 +7,12 @@ import SEO from "../components/seo"
 import Scroller from "../components/scroller"
 import PortfolioModal from "../components/portfolio/modal"
 import PortfolioCarousel from "../components/portfolio/carousel"
+import { Icon, InlineIcon } from "@iconify/react"
+import gatsbyIcon from "@iconify/icons-simple-icons/gatsby"
+import nextjsIcon from "@iconify/icons-logos/nextjs"
+import consoleSqlOutlined from "@iconify/icons-ant-design/console-sql-outlined"
+import expressIcon from "@iconify/icons-logos/express"
+
 
 export default class IndexPage extends React.Component {
   constructor(props) {
@@ -55,26 +61,28 @@ export default class IndexPage extends React.Component {
 
         <section className="page-section" id="skills">
           <div className="container">
-            <h2 className="text-center mt-0">Skills</h2>
+            <h2 className="text-center mt-0"> Skills </h2>
             <hr className="divider my-4"/>
             <div className="row">
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-globe text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Languages</h3>
+                  <h3 className="h4 mb-2"> Languages </h3>
                   <p className="text-muted mb-0"><i className="fab fa-html5 mr-2"></i>HTML</p>
                   <p className="text-muted mb-0"><i className="fab fa-css3-alt mr-2"></i>CSS</p>
                   <p className="text-muted mb-0"><i className="fab fa-js mr-2"></i>JavaScript</p>
-                  <p className="text-muted mb-0"><i className="fas fa-database mr-2"></i>SQL</p>
+                  <p className="text-muted mb-0"><Icon icon={consoleSqlOutlined} className="mr-2" />SQL</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Libraries/Frameworks</h3>
+                  <h3 className="h4 mb-2"> Libraries/Frameworks </h3>
                   <p className="text-muted mb-0"><i className="fab fa-react mr-2"></i>React</p>
-                  <p className="text-muted mb-0"><i className="fab fa-react mr-2"></i>Gatsby</p>
-                  <p className="text-muted mb-0"><i className="fab fa-react mr-2"></i>Next.js</p>
+                  <p className="text-muted mb-0"><Icon icon={gatsbyIcon} className="mr-2"/> Gatsby</p>
+                  <p className="text-muted mb-0"><Icon icon={nextjsIcon} className="mr-2"/> Next.js</p>
+                  <p className="text-muted mb-0"><i className="fab fa-node-js mr-2"></i>Node.js</p>
+                  <p className="text-muted mb-0"><Icon icon={expressIcon} className="mr-2" />Express.js</p>
                   <p className="text-muted mb-0"><i className="fab fa-bootstrap mr-2"></i>Bootstrap</p>
                   <p className="text-muted mb-0"><i className="fab fa-sass mr-2"></i>Sass</p>
                 </div>
@@ -160,7 +168,7 @@ export default class IndexPage extends React.Component {
                       Category
                     </div>
                     <div className="project-name">
-                      Project Name
+                       Project Name
                     </div>
                   </div>
                 </a>
