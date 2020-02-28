@@ -75,8 +75,8 @@ export default class IndexPage extends React.Component {
                   <p className="text-muted mb-0"><i className="fab fa-react mr-2"></i>React</p>
                   <p className="text-muted mb-0"><i className="fab fa-react mr-2"></i>Gatsby</p>
                   <p className="text-muted mb-0"><i className="fab fa-react mr-2"></i>Next.js</p>
-                  <p className="text-muted mb-0"><i class="fab fa-bootstrap mr-2"></i>Bootstrap</p>
-                  <p className="text-muted mb-0"><i class="fab fa-sass mr-2"></i>Sass</p>
+                  <p className="text-muted mb-0"><i className="fab fa-bootstrap mr-2"></i>Bootstrap</p>
+                  <p className="text-muted mb-0"><i className="fab fa-sass mr-2"></i>Sass</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
