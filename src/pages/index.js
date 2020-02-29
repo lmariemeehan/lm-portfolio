@@ -91,9 +91,9 @@ export default class IndexPage extends React.Component {
                 <div className="mt-5">
                   <i className="fas fa-4x fa-tools text-primary mb-4"></i>
                   <h3 className="h4 mb-2"> Tools </h3>
-                  <p className="text-muted mb-0">You can use this design as is, or you can make changes!</p>
                   <p className="text-muted mb-0"><i className="fab fa-github mr-2"></i>Github</p>
                   <p className="text-muted mb-0"><i className="fab fa-trello mr-2"></i>Trello</p>
+                  <p className="text-muted mb-0">You can use this design as is, or you can make changes!</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
