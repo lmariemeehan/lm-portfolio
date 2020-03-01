@@ -12,10 +12,14 @@ import { Icon, InlineIcon } from "@iconify/react"
 import gatsbyIcon from "@iconify/icons-simple-icons/gatsby"
 import herokuIcon from "@iconify/icons-simple-icons/heroku"
 import firebaseIcon from "@iconify/icons-simple-icons/firebase"
+import postgresqlIcon from "@iconify/icons-simple-icons/postgresql"
 
 import nextjsIcon from "@iconify/icons-logos/nextjs"
 import jasmineIcon from "@iconify/icons-logos/jasmine"
 import expressIcon from "@iconify/icons-logos/express"
+import mysqlIcon from "@iconify/icons-logos/mysql"
+import cloudinaryIcon from "@iconify/icons-logos/cloudinary"
+
 import consoleSqlOutlined from "@iconify/icons-ant-design/console-sql-outlined"
 import responsiveIcon from "@iconify/icons-mdi/responsive"
 
@@ -95,12 +99,15 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-tools text-primary mb-4"></i>
-                  <h3 className="h4 mb-2"> Tools </h3>
+                  <h3 className="h4 mb-2">  Tools </h3>
                   <p className="text-muted mb-0"><i className="fab fa-github mr-2"></i>Github</p>
                   <p className="text-muted mb-0"><i className="fab fa-trello mr-2"></i>Trello</p>
                   <p className="text-muted mb-0"><Icon icon={jasmineIcon} className="mr-2"/>Jasmine Testing</p>
                   <p className="text-muted mb-0"><Icon icon={herokuIcon} className="mr-2"/>Heroku</p>
                   <p className="text-muted mb-0"><Icon icon={firebaseIcon} className="mr-2"/>Firebase</p>
+                  <p className="text-muted mb-0"><Icon icon={postgresqlIcon} className="mr-2"/>PostgreSQL</p>
+                  <p className="text-muted mb-0"><Icon icon={mysqlIcon} className="mr-2"/>MySQL</p>
+                  <p className="text-muted mb-0"><Icon icon={cloudinaryIcon} className="mr-2"/>Cloudinary</p>
 
                 </div>
               </div>
@@ -219,13 +226,21 @@ export default class IndexPage extends React.Component {
               </div>
             </div>
             <div className="row">
-              <div className="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-                <i className="fas fa-phone fa-3x mb-3 text-muted"></i>
-                <div>+1 (202) 555-0149</div>
+              <div className="col-lg-3 ml-auto text-center mb-5 mb-lg-0">
+                <i className="fab fa-github fa-3x mb-3 text-muted"></i>
+                <a className="d-block" href="https://github.com/lmariemeehan" target="_blank">Github</a>
               </div>
-              <div className="col-lg-4 mr-auto text-center">
+              <div className="col-lg-3 text-center mb-5">
+                <i class="fab fa-linkedin fa-3x mb-3 text-muted"></i>
+                <a class="d-block" href="https://www.linkedin.com/in/laura-meehan/" target="_blank">LinkedIn</a>
+              </div>
+              <div className="col-lg-3 mr-auto text-center mb-5">
                 <i className="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                <a className="d-block" href="mailto:lmariemeehan@gmail.com">lmariemeehan@gmail.com</a>
+                <a className="d-block" href="mailto:lmariemeehan@gmail.com">Email</a>
+              </div>
+              <div className="col-lg-3 mr-auto text-center">
+                <i className="fas fa-file fa-3x mb-3 text-muted"></i>
+                <a className="d-block" href="https://resume.creddle.io/resume/esk2ehlp0oj" target="_blank">Resume</a>
               </div>
             </div>
           </div>
