@@ -7,12 +7,17 @@ import SEO from "../components/seo"
 import Scroller from "../components/scroller"
 import PortfolioModal from "../components/portfolio/modal"
 import PortfolioCarousel from "../components/portfolio/carousel"
+
 import { Icon, InlineIcon } from "@iconify/react"
 import gatsbyIcon from "@iconify/icons-simple-icons/gatsby"
-import nextjsIcon from "@iconify/icons-logos/nextjs"
-import consoleSqlOutlined from "@iconify/icons-ant-design/console-sql-outlined"
-import expressIcon from "@iconify/icons-logos/express"
+import herokuIcon from "@iconify/icons-simple-icons/heroku"
+import firebaseIcon from "@iconify/icons-simple-icons/firebase"
 
+import nextjsIcon from "@iconify/icons-logos/nextjs"
+import jasmineIcon from "@iconify/icons-logos/jasmine"
+import expressIcon from "@iconify/icons-logos/express"
+import consoleSqlOutlined from "@iconify/icons-ant-design/console-sql-outlined"
+import responsiveIcon from "@iconify/icons-mdi/responsive"
 
 export default class IndexPage extends React.Component {
   constructor(props) {
@@ -41,7 +46,7 @@ export default class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <SEO title="Home"/>
+        <SEO title="Laura Meehan"/>
         <section className="page-section bg-secondary" id="about">
           <div className="container">
             <div className="row justify-content-center">
@@ -93,14 +98,17 @@ export default class IndexPage extends React.Component {
                   <h3 className="h4 mb-2"> Tools </h3>
                   <p className="text-muted mb-0"><i className="fab fa-github mr-2"></i>Github</p>
                   <p className="text-muted mb-0"><i className="fab fa-trello mr-2"></i>Trello</p>
-                  <p className="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+                  <p className="text-muted mb-0"><Icon icon={jasmineIcon} className="mr-2"/>Jasmine Testing</p>
+                  <p className="text-muted mb-0"><Icon icon={herokuIcon} className="mr-2"/>Heroku</p>
+                  <p className="text-muted mb-0"><Icon icon={firebaseIcon} className="mr-2"/>Firebase</p>
+
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-heart text-primary mb-4"></i>
                   <h3 className="h4 mb-2">Made with Love</h3>
-                  <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                  <p className="text-muted mb-0"><Icon icon={responsiveIcon} className="mr-2" />Responsive Design</p>
                 </div>
               </div>
             </div>
@@ -217,7 +225,7 @@ export default class IndexPage extends React.Component {
               </div>
               <div className="col-lg-4 mr-auto text-center">
                 <i className="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                <a className="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
+                <a className="d-block" href="mailto:lmariemeehan@gmail.com">lmariemeehan@gmail.com</a>
               </div>
             </div>
           </div>
