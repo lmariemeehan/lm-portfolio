@@ -97,17 +97,16 @@ export default class IndexPage extends React.Component {
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
-                <div className="mt-5">
+                <div className="mt-5" >
                   <i className="fas fa-4x fa-tools text-primary mb-4"></i>
                   <h3 className="h4 mb-2">  Tools </h3>
                   <p className="text-muted mb-0"><i className="fab fa-github mr-2"></i>Github</p>
                   <p className="text-muted mb-0"><i className="fab fa-trello mr-2"></i>Trello</p>
-                  <p className="text-muted mb-0"><Icon icon={jasmineIcon} className="mr-2"/>Jasmine Testing</p>
                   <p className="text-muted mb-0"><Icon icon={herokuIcon} className="mr-2"/>Heroku</p>
                   <p className="text-muted mb-0"><Icon icon={firebaseIcon} className="mr-2"/>Firebase</p>
                   <p className="text-muted mb-0"><Icon icon={postgresqlIcon} className="mr-2"/>PostgreSQL</p>
-                  <p className="text-muted mb-0"><Icon icon={mysqlIcon} className="mr-2"/>MySQL</p>
-                  <p className="text-muted mb-0"><Icon icon={cloudinaryIcon} className="mr-2"/>Cloudinary</p>
+                  <p className="text-muted mb-0"><Icon icon={mysqlIcon} className="mr-2" id="mysql"/>MySQL</p>
+                  <p className="text-muted mb-0"><Icon icon={cloudinaryIcon} className="mr-2" id="cloudinary" />Cloudinary</p>
 
                 </div>
               </div>
@@ -116,6 +115,9 @@ export default class IndexPage extends React.Component {
                   <i className="fas fa-4x fa-heart text-primary mb-4"></i>
                   <h3 className="h4 mb-2">Made with Love</h3>
                   <p className="text-muted mb-0"><Icon icon={responsiveIcon} className="mr-2" />Responsive Design</p>
+                  <p className="text-muted mb-0"><Icon icon={jasmineIcon} className="mr-2"/>Jasmine Testing</p>
+                  <p className="text-muted mb-0"><i className="fas fa-sitemap mr-2"></i>MVC Architecture</p>
+                  <p className="text-muted mb-0"><i className="fas fa-universal-access mr-2"></i>Web Accessible</p>
                 </div>
               </div>
             </div>
@@ -219,13 +221,11 @@ export default class IndexPage extends React.Component {
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
                 <h2 className="mt-0">Let's Get In Touch!</h2>
-                <hr className="divider my-4"/>
-                <p className="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an
-                  email
-                  and we will get back to you as soon as possible!</p>
+                <hr className="divider mt-4 mb-5"/>
+                
               </div>
             </div>
-            <div className="row">
+            <div className="row mt-3">
               <div className="col-lg-3 ml-auto text-center mb-5 mb-lg-0">
                 <i className="fab fa-github fa-3x mb-3 text-muted"></i>
                 <a className="d-block" href="https://github.com/lmariemeehan" target="_blank">Github</a>
