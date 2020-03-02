@@ -13,6 +13,7 @@ import gatsbyIcon from "@iconify/icons-simple-icons/gatsby"
 import herokuIcon from "@iconify/icons-simple-icons/heroku"
 import firebaseIcon from "@iconify/icons-simple-icons/firebase"
 import postgresqlIcon from "@iconify/icons-simple-icons/postgresql"
+import jqueryIcon from "@iconify/icons-simple-icons/jquery"
 
 import nextjsIcon from "@iconify/icons-logos/nextjs"
 import jasmineIcon from "@iconify/icons-logos/jasmine"
@@ -60,9 +61,8 @@ export default class IndexPage extends React.Component {
                 <p className="text-white-50 mb-4">I've decided to make a career change after four years in payroll accounting
                  to pursue web development because it embodies what I love to do most, which is to create. After discovering web 
                  development and spending upwards to a year of learning on my own, I decided to immerse myself in Bloc's (now Thinkful's) 
-                 full-stack development apprenticeship program where my love for code and problem-solving intensified. Since Bloc, I've made it a 
-                 point to learn something new almost everyday and to be a slightly better developer than I was yesterday.</p>
-
+                 full-stack development apprenticeship program where my love for code and problem-solving intensified. Since Bloc, I make it a 
+                 point to learn something new everyday so that I can be a slightly better developer than I was yesterday.</p>
               </div>
             </div>
           </div>
@@ -92,6 +92,7 @@ export default class IndexPage extends React.Component {
                   <p className="text-muted mb-0"><Icon icon={nextjsIcon} className="mr-2"/> Next.js</p>
                   <p className="text-muted mb-0"><i className="fab fa-node-js mr-2"></i>Node.js</p>
                   <p className="text-muted mb-0"><Icon icon={expressIcon} className="mr-2" />Express.js</p>
+                  <p className="text-muted mb-0"><Icon icon={jqueryIcon} className="mr-2" />jQuery</p>
                   <p className="text-muted mb-0"><i className="fab fa-bootstrap mr-2"></i>Bootstrap</p>
                   <p className="text-muted mb-0"><i className="fab fa-sass mr-2"></i>Sass</p>
                 </div>
@@ -107,7 +108,7 @@ export default class IndexPage extends React.Component {
                   <p className="text-muted mb-0"><Icon icon={postgresqlIcon} className="mr-2"/>PostgreSQL</p>
                   <p className="text-muted mb-0"><Icon icon={mysqlIcon} className="mr-2" id="mysql"/>MySQL</p>
                   <p className="text-muted mb-0"><img src="https://res.cloudinary.com/laurameehan/image/upload/c_scale,co_rgb:6c757d,e_grayscale,h_16,w_16/v1573537737/samples/cloudinary-icon.png" className="mr-2" />Cloudinary</p>
-
+                  <p className="text-muted mb-0"><img src="https://res.cloudinary.com/laurameehan/image/upload/c_scale,h_16,w_16/v1583189152/icons8-command-line-50_hig8v5.png" className="mr-2" />Command Line</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
@@ -230,8 +231,8 @@ export default class IndexPage extends React.Component {
                 <a className="d-block" href="https://github.com/lmariemeehan" target="_blank">Github</a>
               </div>
               <div className="col-lg-3 text-center mb-5">
-                <i class="fab fa-linkedin fa-3x mb-3 text-muted"></i>
-                <a class="d-block" href="https://www.linkedin.com/in/laura-meehan/" target="_blank">LinkedIn</a>
+                <i className="fab fa-linkedin fa-3x mb-3 text-muted"></i>
+                <a className="d-block" href="https://www.linkedin.com/in/laura-meehan/" target="_blank">LinkedIn</a>
               </div>
               <div className="col-lg-3 mr-auto text-center mb-5">
                 <i className="fas fa-envelope fa-3x mb-3 text-muted"></i>
