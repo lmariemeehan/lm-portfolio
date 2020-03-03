@@ -14,13 +14,9 @@ import herokuIcon from "@iconify/icons-simple-icons/heroku"
 import firebaseIcon from "@iconify/icons-simple-icons/firebase"
 import postgresqlIcon from "@iconify/icons-simple-icons/postgresql"
 import jqueryIcon from "@iconify/icons-simple-icons/jquery"
-
 import nextjsIcon from "@iconify/icons-logos/nextjs"
-import jasmineIcon from "@iconify/icons-logos/jasmine"
 import expressIcon from "@iconify/icons-logos/express"
 import mysqlIcon from "@iconify/icons-logos/mysql"
-import cloudinaryIcon from "@iconify/icons-logos/cloudinary"
-
 import consoleSqlOutlined from "@iconify/icons-ant-design/console-sql-outlined"
 import responsiveIcon from "@iconify/icons-mdi/responsive"
 
@@ -107,8 +103,8 @@ export default class IndexPage extends React.Component {
                   <p className="text-muted mb-0"><Icon icon={firebaseIcon} className="mr-2"/>Firebase</p>
                   <p className="text-muted mb-0"><Icon icon={postgresqlIcon} className="mr-2"/>PostgreSQL</p>
                   <p className="text-muted mb-0"><Icon icon={mysqlIcon} className="mr-2" id="mysql"/>MySQL</p>
-                  <p className="text-muted mb-0"><img src="https://res.cloudinary.com/laurameehan/image/upload/c_scale,co_rgb:6c757d,e_grayscale,h_16,w_16/v1573537737/samples/cloudinary-icon.png" className="mr-2" />Cloudinary</p>
-                  <p className="text-muted mb-0"><img src="https://res.cloudinary.com/laurameehan/image/upload/c_scale,h_16,w_16/v1583189152/icons8-command-line-50_hig8v5.png" className="mr-2" />Command Line</p>
+                  <p className="text-muted mb-0"><img src="https://res.cloudinary.com/laurameehan/image/upload/c_scale,co_rgb:6c757d,e_grayscale,h_16,w_16/v1573537737/samples/cloudinary-icon.png" className="mr-2" alt="cloudinary icon" />Cloudinary</p>
+                  <p className="text-muted mb-0"><img src="https://res.cloudinary.com/laurameehan/image/upload/c_scale,h_16,w_16/v1583189152/icons8-command-line-50_hig8v5.png" className="mr-2" alt="command line icon" />Command Line</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
@@ -116,7 +112,7 @@ export default class IndexPage extends React.Component {
                   <i className="fas fa-4x fa-heart text-primary mb-4"></i>
                   <h3 className="h4 mb-2">Made with Love</h3>
                   <p className="text-muted mb-0"><Icon icon={responsiveIcon} className="mr-2" />Responsive Design</p>
-                  <p className="text-muted mb-0"><img src="https://res.cloudinary.com/laurameehan/image/upload/v1583133133/jasmine-16_umnesr.svg" height="16" width="16" className="mr-2" />Jasmine Testing</p>
+                  <p className="text-muted mb-0"><img src="https://res.cloudinary.com/laurameehan/image/upload/v1583133133/jasmine-16_umnesr.svg" height="16" width="16" className="mr-2" alt="jasmine testing icon" />Jasmine Testing</p>
                   <p className="text-muted mb-0"><i className="fas fa-sitemap mr-2"></i>MVC Architecture</p>
                   <p className="text-muted mb-0"><i className="fas fa-universal-access mr-2"></i>Web Accessible</p>
                 </div>
@@ -125,9 +121,11 @@ export default class IndexPage extends React.Component {
           </div>
         </section>
 
-        <section id="portfolio">
-          <div className="container-fluid p-0">
-            <div className="row no-gutters">
+        <section className="page-section bg-dark " id="portfolio">
+          <div className="container-fluid px-0">
+          <h2 className="text-center text-white mt-0"> Portfolio </h2>
+            <hr className="divider light my-4"/>
+            <div className="row no-gutters mt-4">
               <div className="col-lg-4 col-sm-6">
                 <a className="portfolio-box" href="img/portfolio/fullsize/1.jpg" onClick={this.handlePortfolioClick.bind(this, 0)}>
                   <Img fluid={this.props.data.images.edges[0].node.childImageSharp.fluid}/>
@@ -207,13 +205,6 @@ export default class IndexPage extends React.Component {
                 </a>
               </div>
             </div>
-          </div>
-        </section>
-
-        <section className="page-section bg-dark text-white">
-          <div className="container text-center">
-            <h2 className="mb-4">Free Download at Start Bootstrap!</h2>
-            <a className="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
           </div>
         </section>
 

@@ -49,6 +49,12 @@ hr.light {
 	opacity: 0.8;
 }
 
-#tools p {
-	color: #6c757d;
+#skills h3 {
+	color: $primary;
+}
+
+#portfolio {
+	hr.light {
+		padding-bottom: 3rem;
+	}
 }
