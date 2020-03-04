@@ -8,7 +8,7 @@ import Scroller from "../components/scroller"
 import PortfolioModal from "../components/portfolio/modal"
 import PortfolioCarousel from "../components/portfolio/carousel"
 
-import { Icon, InlineIcon } from "@iconify/react"
+import { Icon } from "@iconify/react"
 import gatsbyIcon from "@iconify/icons-simple-icons/gatsby"
 import herokuIcon from "@iconify/icons-simple-icons/heroku"
 import firebaseIcon from "@iconify/icons-simple-icons/firebase"
@@ -127,14 +127,14 @@ export default class IndexPage extends React.Component {
             <hr className="divider light my-4"/>
             <div className="row no-gutters mt-4">
               <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="img/portfolio/fullsize/1.jpg" onClick={this.handlePortfolioClick.bind(this, 0)}>
+                <a className="portfolio-box" href="img/portfolio/fullsize/resonate-logo.jpg" onClick={this.handlePortfolioClick.bind(this, 0)}>
                   <Img fluid={this.props.data.images.edges[0].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
-                      Category
+                      React.js Music App
                     </div>
                     <div className="project-name">
-                      Project Name
+                      Resonate
                     </div>
                   </div>
                 </a>
@@ -219,11 +219,11 @@ export default class IndexPage extends React.Component {
             <div className="row mt-2">
               <div className="col-lg-3 ml-auto text-center mb-5 mb-lg-0">
                 <i className="fab fa-github fa-3x mb-3 text-muted"></i>
-                <a className="d-block" href="https://github.com/lmariemeehan" target="_blank">Github</a>
+                <a className="d-block" href="https://github.com/lmariemeehan" target="_blank" rel="noopener noreferrer">Github</a>
               </div>
               <div className="col-lg-3 text-center mb-5">
                 <i className="fab fa-linkedin fa-3x mb-3 text-muted"></i>
-                <a className="d-block" href="https://www.linkedin.com/in/laura-meehan/" target="_blank">LinkedIn</a>
+                <a className="d-block" href="https://www.linkedin.com/in/laura-meehan/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
               </div>
               <div className="col-lg-3 mr-auto text-center mb-5">
                 <i className="fas fa-envelope fa-3x mb-3 text-muted"></i>
@@ -231,7 +231,7 @@ export default class IndexPage extends React.Component {
               </div>
               <div className="col-lg-3 mr-auto text-center">
                 <i className="fas fa-file fa-3x mb-3 text-muted"></i>
-                <a className="d-block" href="https://resume.creddle.io/resume/esk2ehlp0oj" target="_blank">Resume</a>
+                <a className="d-block" href="https://resume.creddle.io/resume/esk2ehlp0oj" target="_blank" rel="noopener noreferrer">Resume</a>
               </div>
             </div>
           </div>
