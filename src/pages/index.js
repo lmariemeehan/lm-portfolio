@@ -127,7 +127,7 @@ export default class IndexPage extends React.Component {
             <hr className="divider light my-4"/>
             <div className="row no-gutters mt-4">
               <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="img/portfolio/fullsize/resonate-logo.jpg" onClick={this.handlePortfolioClick.bind(this, 0)}>
+                <a className="portfolio-box" href="img/portfolio/fullsize/resonate-logo1.jpg" onClick={this.handlePortfolioClick.bind(this, 0)}>
                   <Img fluid={this.props.data.images.edges[0].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
