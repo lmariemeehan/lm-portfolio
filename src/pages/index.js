@@ -127,7 +127,7 @@ export default class IndexPage extends React.Component {
             <hr className="divider light my-4"/>
             <div className="row no-gutters mt-4">
               <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="img/portfolio/fullsize/resonate-logo1.jpg" onClick={this.handlePortfolioClick.bind(this, 0)}>
+                <a className="portfolio-box" href="img/portfolio/fullsize/1resonate.jpg" onClick={this.handlePortfolioClick.bind(this, 0)}>
                   <Img fluid={this.props.data.images.edges[0].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
@@ -140,14 +140,14 @@ export default class IndexPage extends React.Component {
                 </a>
               </div>
               <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="img/portfolio/fullsize/x2.jpg" onClick={this.handlePortfolioClick.bind(this, 1)}>
+                <a className="portfolio-box" href="img/portfolio/fullsize/2hello.jpg" onClick={this.handlePortfolioClick.bind(this, 1)}>
                   <Img fluid={this.props.data.images.edges[1].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
-                      Category
+                      React.js Chat App
                     </div>
                     <div className="project-name">
-                      Project Name
+                      Hello
                     </div>
                   </div>
                 </a>
