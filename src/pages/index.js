@@ -129,21 +129,24 @@ export default class IndexPage extends React.Component {
                   <div className="col">
                     <div className="card bg-light">
                       <div className="card-body text-center">
-                        <h5 className="card-title mb-4"> Resonate </h5>
-                        <p className="card-text py-4"> Music player built with React and Bootstrap </p>
+                        <h3 className="card-title mb-4"> Resonate </h3>
+                        <p className="card-text py-4"> React.js Music player</p>
+                        <p className="card-text">Built with: React, React Developer Tools Chrome extension for debugging, Babel for enabling JSX syntax support, 
+                          React Router for client-side page transitions, Bootstrap for layout and style, and Git for version-control.</p>
                         <br />
-                        <a href="https://lmariemeehan-bloc-jams-react.herokuapp.com/" className="card-link" target="_blank" rel="noopener noreferrer">See it live</a>
-                        <a href="https://github.com/lmariemeehan/Resonate" className="card-link" target="_blank" rel="noopener noreferrer">Github</a>
+                        <a href="https://lmariemeehan-bloc-jams-react.herokuapp.com/" className="btn btn-primary card-link" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
+                        <a href="https://github.com/lmariemeehan/Resonate" className="btn btn-primary card-link" role="button" target="_blank" rel="noopener noreferrer">Github</a>
                       </div>
                     </div>
                   </div>
                   <div className="col">
                     <div className="card bg-light">
                       <div className="card-body text-center">
-                        <h5 className="card-title mb-4"> Hello </h5>
-                        <p className="card-text py-4"> Chat app built with React, Firebase for the database and user authentication, and Bootstrap. </p>
-                        <a href="https://lmariemeehan-bloc-chat-react.herokuapp.com/" className="card-link" target="_blank" rel="noopener noreferrer">See it live</a>
-                        <a href="https://github.com/lmariemeehan/Hello" className="card-link" target="_blank" rel="noopener noreferrer">Github</a>
+                        <h3 className="card-title mb-4"> Hello </h3>
+                        <p className="card-text py-4"> React.js Chat app </p>
+                        <p>Built with React, Firebase for the database and user authentication, and Bootstrap. </p>
+                        <a href="https://lmariemeehan-bloc-chat-react.herokuapp.com/" className="btn btn-primary card-link" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
+                        <a href="https://github.com/lmariemeehan/Hello" className="btn btn-primary card-link" role="button" target="_blank" rel="noopener noreferrer">Github</a>
                       </div>
                     </div>
                   </div>
@@ -152,20 +155,22 @@ export default class IndexPage extends React.Component {
                   <div className="col">
                     <div className="card bg-light">
                       <div className="card-body text-center">
-                        <h5 className="card-title mb-4"> InQuisitive </h5>
-                        <p className="card-text py-4"> Wikipedia app built with Node.js, Express, Stripe API, Sendgrid API, and PostgreSQL for the database. </p>
-                        <a href="https://lmariemeehan-blocipedia.herokuapp.com/" className="card-link" target="_blank" rel="noopener noreferrer">See it live</a>
-                        <a href="https://github.com/lmariemeehan/InQuisitive" className="card-link" target="_blank" rel="noopener noreferrer">Github</a>
+                        <h3 className="card-title mb-4"> InQuisitive </h3>
+                        <p className="card-text py-4"> Node.js Wikipedia app </p>
+                        <p className="card-text">Built with Node.js, Express.js, Stripe API, Sendgrid API, and PostgreSQL for the database.</p>
+                        <a href="https://lmariemeehan-blocipedia.herokuapp.com/" className="btn btn-primary card-link" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
+                        <a href="https://github.com/lmariemeehan/InQuisitive" className="btn btn-primary card-link" role="button" target="_blank" rel="noopener noreferrer">Github</a>
                       </div>
                     </div>
                   </div>
                   <div className="col">
                     <div className="card bg-light">
                       <div className="card-body text-center">
-                        <h5 className="card-title mb-4">INRecord</h5>
-                        <p className="card-text py-4">INR & Medication tracking app built with Node, Express, and MySQL for the database. </p>
-                        <a href="https://lmariemeehan-inr.herokuapp.com/" className="card-link" target="_blank" rel="noopener noreferrer">See it live</a>
-                        <a href="https://github.com/lmariemeehan/inr" className="card-link" target="_blank" rel="noopener noreferrer">Github</a>
+                        <h3 className="card-title mb-4"> INRecord </h3>
+                        <p className="card-text py-4">Node.js INR & Medication tracking app</p>
+                        <p className="card-text">Built with Node.js, Express.js, and MySQL for the database. </p>
+                        <a href="https://lmariemeehan-inr.herokuapp.com/" className="btn btn-primary card-link" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
+                        <a href="https://github.com/lmariemeehan/inr" className="btn btn-primary card-link" role="button" target="_blank" rel="noopener noreferrer">Github</a>
                       </div>
                     </div>
                   </div>
