@@ -128,9 +128,9 @@ export default class IndexPage extends React.Component {
                 <div className="row mt-5">
                   <div className="col">
                     <div className="card bg-light">
-                      <div className="card-body text-center">
+                      <div className="card-body text-center p-4">
                         <h3 className="card-title mb-4"> Resonate </h3>
-                        <p className="card-text py-4"> React.js Music player</p>
+                        <p className="card-text py-3"> React.js Music player</p>
                         <p className="card-text">Built with: React, React Developer Tools Chrome extension for debugging, Babel for enabling JSX syntax support, 
                           React Router for client-side page transitions, Bootstrap for layout and style, and Git for version-control.</p>
                         <br />
@@ -141,9 +141,9 @@ export default class IndexPage extends React.Component {
                   </div>
                   <div className="col">
                     <div className="card bg-light">
-                      <div className="card-body text-center">
+                      <div className="card-body text-center p-4">
                         <h3 className="card-title mb-4"> Hello </h3>
-                        <p className="card-text py-4"> React.js Chat app </p>
+                        <p className="card-text py-3"> React.js Chat app </p>
                         <p>Built with React, Firebase for the database and user authentication, and Bootstrap. </p>
                         <a href="https://lmariemeehan-bloc-chat-react.herokuapp.com/" className="btn btn-primary card-link" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                         <a href="https://github.com/lmariemeehan/Hello" className="btn btn-primary card-link" role="button" target="_blank" rel="noopener noreferrer">Github</a>
@@ -154,9 +154,9 @@ export default class IndexPage extends React.Component {
                 <div className="row mt-5">
                   <div className="col">
                     <div className="card bg-light">
-                      <div className="card-body text-center">
+                      <div className="card-body text-center p-4">
                         <h3 className="card-title mb-4"> InQuisitive </h3>
-                        <p className="card-text py-4"> Node.js Wikipedia app </p>
+                        <p className="card-text text-muted py-3"> Node.js Wikipedia app </p>
                         <p className="card-text">Built with Node.js, Express.js, Stripe API, Sendgrid API, and PostgreSQL for the database.</p>
                         <a href="https://lmariemeehan-blocipedia.herokuapp.com/" className="btn btn-primary card-link" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                         <a href="https://github.com/lmariemeehan/InQuisitive" className="btn btn-primary card-link" role="button" target="_blank" rel="noopener noreferrer">Github</a>
@@ -165,9 +165,9 @@ export default class IndexPage extends React.Component {
                   </div>
                   <div className="col">
                     <div className="card bg-light">
-                      <div className="card-body text-center">
+                      <div className="card-body text-center p-4">
                         <h3 className="card-title mb-4"> INRecord </h3>
-                        <p className="card-text py-4">Node.js INR & Medication tracking app</p>
+                        <p className="card-text py-3">Node.js INR & Medication tracking app</p>
                         <p className="card-text">Built with Node.js, Express.js, and MySQL for the database. </p>
                         <a href="https://lmariemeehan-inr.herokuapp.com/" className="btn btn-primary card-link" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                         <a href="https://github.com/lmariemeehan/inr" className="btn btn-primary card-link" role="button" target="_blank" rel="noopener noreferrer">Github</a>
