@@ -125,14 +125,15 @@ export default class IndexPage extends React.Component {
           <h2 className="text-center text-white mt-0"> Portfolio </h2>
             <hr className="divider light my-4"/>
               <div className="container">
-                <div className="row mt-5 mx-auto">
+                <div className="row mt-5">
                   <div className="col">
                     <div className="card bg-light">
                       <div className="card-body text-center">
                         <h5 className="card-title mb-4"> Resonate </h5>
                         <p className="card-text"> Music player built with React and Bootstrap </p>
-                        <a href="https://lmariemeehan-bloc-jams-react.herokuapp.com/" class="card-link" target="_blank" rel="noopener noreferrer">See it live</a>
-                        <a href="https://github.com/lmariemeehan/Resonate" class="card-link" target="_blank" rel="noopener noreferrer">Github</a>
+                        <br />
+                        <a href="https://lmariemeehan-bloc-jams-react.herokuapp.com/" className="card-link" target="_blank" rel="noopener noreferrer">See it live</a>
+                        <a href="https://github.com/lmariemeehan/Resonate" className="card-link" target="_blank" rel="noopener noreferrer">Github</a>
                       </div>
                     </div>
                   </div>
@@ -141,8 +142,8 @@ export default class IndexPage extends React.Component {
                       <div className="card-body text-center">
                         <h5 className="card-title mb-4"> Hello </h5>
                         <p className="card-text"> Chat app built with React, Firebase for the database and user authentication, and Bootstrap. </p>
-                        <a href="https://lmariemeehan-bloc-chat-react.herokuapp.com/" class="card-link" target="_blank" rel="noopener noreferrer">See it live</a>
-                        <a href="https://github.com/lmariemeehan/Hello" class="card-link" target="_blank" rel="noopener noreferrer">Github</a>
+                        <a href="https://lmariemeehan-bloc-chat-react.herokuapp.com/" className="card-link" target="_blank" rel="noopener noreferrer">See it live</a>
+                        <a href="https://github.com/lmariemeehan/Hello" className="card-link" target="_blank" rel="noopener noreferrer">Github</a>
                       </div>
                     </div>
                   </div>
@@ -153,8 +154,8 @@ export default class IndexPage extends React.Component {
                       <div className="card-body text-center">
                         <h5 className="card-title mb-4"> InQuisitive </h5>
                         <p className="card-text"> Wikipedia app built with Node.js, Express, Stripe API, Sendgrid API, and PostgreSQL for the database. </p>
-                        <a href="https://lmariemeehan-blocipedia.herokuapp.com/" class="card-link" target="_blank" rel="noopener noreferrer">See it live</a>
-                        <a href="https://github.com/lmariemeehan/InQuisitive" class="card-link" target="_blank" rel="noopener noreferrer">Github</a>
+                        <a href="https://lmariemeehan-blocipedia.herokuapp.com/" className="card-link" target="_blank" rel="noopener noreferrer">See it live</a>
+                        <a href="https://github.com/lmariemeehan/InQuisitive" className="card-link" target="_blank" rel="noopener noreferrer">Github</a>
                       </div>
                     </div>
                   </div>
@@ -163,8 +164,8 @@ export default class IndexPage extends React.Component {
                       <div className="card-body text-center">
                         <h5 className="card-title mb-4">INRecord</h5>
                         <p className="card-text">INR & Medication tracking app built with Node, Express, and MySQL for the database. </p>
-                        <a href="https://lmariemeehan-inr.herokuapp.com/" class="card-link" target="_blank" rel="noopener noreferrer">See it live</a>
-                        <a href="https://github.com/lmariemeehan/inr" class="card-link" target="_blank" rel="noopener noreferrer">Github</a>
+                        <a href="https://lmariemeehan-inr.herokuapp.com/" className="card-link" target="_blank" rel="noopener noreferrer">See it live</a>
+                        <a href="https://github.com/lmariemeehan/inr" className="card-link" target="_blank" rel="noopener noreferrer">Github</a>
                       </div>
                     </div>
                   </div>
@@ -172,7 +173,7 @@ export default class IndexPage extends React.Component {
               </div>
               <div className="container-fluid mt-5 px-0">
                 <div className="row no-gutters pt-5 mt-5">
-                  <div className="col-lg-3 col-sm-6">
+                  <div className="col-lg-6 col-sm-6">
                     <a className="portfolio-box" href="img/portfolio/fullsize/1-resonate.jpg" onClick={this.handlePortfolioClick.bind(this, 0)}>
                       <Img fluid={this.props.data.images.edges[0].node.childImageSharp.fluid}/>
                       <div className="portfolio-box-caption">
@@ -185,7 +186,7 @@ export default class IndexPage extends React.Component {
                       </div>
                     </a>
                   </div>
-                  <div className="col-lg-3 col-sm-6">
+                  <div className="col-lg-6 col-sm-6">
                     <a className="portfolio-box" href="img/portfolio/fullsize/2-hello.jpg" onClick={this.handlePortfolioClick.bind(this, 1)}>
                       <Img fluid={this.props.data.images.edges[1].node.childImageSharp.fluid}/>
                       <div className="portfolio-box-caption">
@@ -198,20 +199,20 @@ export default class IndexPage extends React.Component {
                       </div>
                     </a>
                   </div>
-                  <div className="col-lg-3 col-sm-6">
-                    <a className="portfolio-box" href="img/portfolio/fullsize/3-inquisitive.jpg" onClick={this.handlePortfolioClick.bind(this, 2)}>
-                      <Img fluid={this.props.data.images.edges[2].node.childImageSharp.fluid}/>
-                      <div className="portfolio-box-caption">
-                        <div className="project-category text-white-50">
-                          Node.js Wikipedia App
+                  <div className="col-lg-6 col-sm-6">
+                      <a className="portfolio-box" href="img/portfolio/fullsize/3-inquisitive.jpg" onClick={this.handlePortfolioClick.bind(this, 2)}>
+                        <Img fluid={this.props.data.images.edges[2].node.childImageSharp.fluid}/>
+                        <div className="portfolio-box-caption">
+                          <div className="project-category text-white-50">
+                            Node.js Wikipedia App
+                          </div>
+                          <div className="project-name">
+                            InQuisitive
+                          </div>
                         </div>
-                        <div className="project-name">
-                          InQuisitive
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div className="col-lg-3 col-sm-6">
+                      </a>
+                    </div>
+                  <div className="col-lg-6 col-sm-6">
                     <a className="portfolio-box" href="img/portfolio/fullsize/4-inrecord.jpg" onClick={this.handlePortfolioClick.bind(this, 3)}>
                       <Img fluid={this.props.data.images.edges[3].node.childImageSharp.fluid}/>
                       <div className="portfolio-box-caption">
@@ -224,7 +225,7 @@ export default class IndexPage extends React.Component {
                       </div>
                     </a>
                   </div>
-                  </div>
+                </div>
               </div>
         </section>
 
