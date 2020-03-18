@@ -130,7 +130,7 @@ export default class IndexPage extends React.Component {
                     <div className="card bg-light">
                       <div className="card-body text-center">
                         <h5 className="card-title mb-4"> Resonate </h5>
-                        <p className="card-text"> Music player built with React and Bootstrap </p>
+                        <p className="card-text py-4"> Music player built with React and Bootstrap </p>
                         <br />
                         <a href="https://lmariemeehan-bloc-jams-react.herokuapp.com/" className="card-link" target="_blank" rel="noopener noreferrer">See it live</a>
                         <a href="https://github.com/lmariemeehan/Resonate" className="card-link" target="_blank" rel="noopener noreferrer">Github</a>
@@ -141,7 +141,7 @@ export default class IndexPage extends React.Component {
                     <div className="card bg-light">
                       <div className="card-body text-center">
                         <h5 className="card-title mb-4"> Hello </h5>
-                        <p className="card-text"> Chat app built with React, Firebase for the database and user authentication, and Bootstrap. </p>
+                        <p className="card-text py-4"> Chat app built with React, Firebase for the database and user authentication, and Bootstrap. </p>
                         <a href="https://lmariemeehan-bloc-chat-react.herokuapp.com/" className="card-link" target="_blank" rel="noopener noreferrer">See it live</a>
                         <a href="https://github.com/lmariemeehan/Hello" className="card-link" target="_blank" rel="noopener noreferrer">Github</a>
                       </div>
@@ -153,7 +153,7 @@ export default class IndexPage extends React.Component {
                     <div className="card bg-light">
                       <div className="card-body text-center">
                         <h5 className="card-title mb-4"> InQuisitive </h5>
-                        <p className="card-text"> Wikipedia app built with Node.js, Express, Stripe API, Sendgrid API, and PostgreSQL for the database. </p>
+                        <p className="card-text py-4"> Wikipedia app built with Node.js, Express, Stripe API, Sendgrid API, and PostgreSQL for the database. </p>
                         <a href="https://lmariemeehan-blocipedia.herokuapp.com/" className="card-link" target="_blank" rel="noopener noreferrer">See it live</a>
                         <a href="https://github.com/lmariemeehan/InQuisitive" className="card-link" target="_blank" rel="noopener noreferrer">Github</a>
                       </div>
@@ -163,7 +163,7 @@ export default class IndexPage extends React.Component {
                     <div className="card bg-light">
                       <div className="card-body text-center">
                         <h5 className="card-title mb-4">INRecord</h5>
-                        <p className="card-text">INR & Medication tracking app built with Node, Express, and MySQL for the database. </p>
+                        <p className="card-text py-4">INR & Medication tracking app built with Node, Express, and MySQL for the database. </p>
                         <a href="https://lmariemeehan-inr.herokuapp.com/" className="card-link" target="_blank" rel="noopener noreferrer">See it live</a>
                         <a href="https://github.com/lmariemeehan/inr" className="card-link" target="_blank" rel="noopener noreferrer">Github</a>
                       </div>
