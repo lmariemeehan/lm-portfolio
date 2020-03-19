@@ -124,25 +124,27 @@ export default class IndexPage extends React.Component {
         <section className="page-section bg-dark " id="portfolio">
           <h2 className="text-center text-white mt-0"> Portfolio </h2>
             <hr className="divider light my-4"/>
-              <div className="container">
-                <div className="row mt-5">
-                  <div className="col">
+              <div className="container px-0">
+                <div className="row no-gutters">
+                  <div className="col-lg-6 col-sm-6">
                     <div className="card bg-light">
-                      <div className="card-body text-center p-4">
-                        <h3 className="card-title mb-4"> Resonate </h3>
-                        <p className="card-text text-muted py-3"> React.js Music player</p>
-                        <p className="card-text pb-4">Built with: React, React Developer Tools Chrome extension for debugging, Babel for enabling JSX syntax support, 
-                          React Router for client-side page transitions, Bootstrap for layout and style, and Git for version-control.</p>
-                        <a href="https://lmariemeehan-bloc-jams-react.herokuapp.com/" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
-                        <a href="https://github.com/lmariemeehan/Resonate" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">Github</a>
+                      <div className="col">
+                        <div className="card-body text-center p-4">
+                          <h4 className="card-title mb-4"> Resonate </h4>
+                          <p className="card-text text-muted pb-3"> React.js Music player</p>
+                          <p className="card-text pb-4">Built with: React, React Developer Tools Chrome extension for debugging, Babel for enabling JSX syntax support, 
+                            React Router for client-side page transitions, Bootstrap for layout and style, and Git for version-control.</p>
+                          <a href="https://lmariemeehan-bloc-jams-react.herokuapp.com/" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
+                          <a href="https://github.com/lmariemeehan/Resonate" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">Github</a>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <div className="col">
+                  <div className="col-lg-6 col-sm-6">
                     <div className="card bg-light">
                       <div className="card-body text-center p-4">
-                        <h3 className="card-title mb-4"> Hello </h3>
-                        <p className="card-text text-muted py-3"> React.js Chat app </p>
+                        <h4 className="card-title mb-4"> Hello </h4>
+                        <p className="card-text text-muted pb-3"> React.js Chat app </p>
                         <p className="card-text">Built with: React, React Developer Tools Chrome extension for debugging, Babel for enabling JSX syntax, 
                           React Router for client-side page transitions, Bootstrap for layout and style, Git for version-control, and Firebase for the NoSQL database and user authentication.</p>
                         <a href="https://lmariemeehan-bloc-chat-react.herokuapp.com/" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
@@ -151,12 +153,12 @@ export default class IndexPage extends React.Component {
                     </div>
                   </div>
                 </div>
-                <div className="row mt-5">
-                  <div className="col">
+                <div className="row no-gutters">
+                  <div className="col-lg-6 col-sm-6">
                     <div className="card bg-light">
                       <div className="card-body text-center p-4">
-                        <h3 className="card-title mb-4"> InQuisitive </h3>
-                        <p className="card-text text-muted py-3"> Node.js Wikipedia app </p>
+                        <h4 className="card-title mb-4"> InQuisitive </h4>
+                        <p className="card-text text-muted pb-3"> Node.js Wikipedia app </p>
                         <p className="card-text">Built with Node.js, Express.js, Morgan for debugging, Stripe API to charge users to upgrade, Sendgrid API for email responses, Passport for user authentication, Sequelize as the ORM, Jasmine for TDD testing, Markdown, bcrypt for hashed passwords, and PostgreSQL for the database.</p>
                         <a href="https://lmariemeehan-blocipedia.herokuapp.com/" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                         <a href="https://github.com/lmariemeehan/InQuisitive" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">Github</a>
@@ -166,8 +168,8 @@ export default class IndexPage extends React.Component {
                   <div className="col">
                     <div className="card bg-light">
                       <div className="card-body text-center p-4">
-                        <h3 className="card-title mb-4"> INRecord </h3>
-                        <p className="card-text text-muted py-3">Node.js INR & Medication tracking app</p>
+                        <h4 className="card-title mb-4"> INRecord </h4>
+                        <p className="card-text text-muted pb-3">Node.js INR & Medication tracking app</p>
                         <p className="card-text">Built with Node.js, Express.js, Passport for user authentication, Sequelize as the ORM, Jasmine for TDD testing, bcrypt for hashed passwords, and MySQL for the database. I also plan on adding Cloudinary to store images to keep track of physical symptom changes.</p>
                         <a href="https://lmariemeehan-inr.herokuapp.com/" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                         <a href="https://github.com/lmariemeehan/inr" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">Github</a>
