@@ -127,7 +127,7 @@ export default class IndexPage extends React.Component {
               <div className="container px-0">
                 <div className="row">
                   <div className="col-lg-6 col-sm-6">
-                    <div className="card bg-light border-0">
+                    <div className="card bg-light border-0 shadow">
                       <img src="https://res.cloudinary.com/laurameehan/image/upload/v1585115417/pattern_tlysrn.png" className="card-img-top" alt="music pattern" />
                         <div className="card-body text-center p-4">
                           <h4 className="card-title mb-4"> Resonate </h4>
@@ -141,7 +141,7 @@ export default class IndexPage extends React.Component {
                
                   </div>
                   <div className="col-lg-6 col-sm-6">
-                    <div className="card bg-light border-0">
+                    <div className="card bg-light border-0 shadow">
                       <img src="https://res.cloudinary.com/laurameehan/image/upload/v1585116060/pattern_1_puyyyy.png" className="card-img-top" alt="chat pattern" />
                       <div className="card-body text-center p-4">
                         <h4 className="card-title mb-4"> Hello </h4>
@@ -156,7 +156,7 @@ export default class IndexPage extends React.Component {
                 </div>
                 <div className="row mt-4">
                   <div className="col-lg-6 col-sm-6">
-                    <div className="card bg-light border-0">
+                    <div className="card bg-light border-0 shadow">
                       <img src="https://res.cloudinary.com/laurameehan/image/upload/v1585117001/pattern_3_forpgk.png" className="card-img-top" alt="wikipedia pattern" />
                       <div className="card-body text-center p-4">
                         <h4 className="card-title mb-4"> InQuisitive </h4>
@@ -168,7 +168,7 @@ export default class IndexPage extends React.Component {
                     </div>
                   </div>
                   <div className="col">
-                    <div className="card bg-light border-0">
+                    <div className="card bg-light border-0 shadow">
                       <img src="https://res.cloudinary.com/laurameehan/image/upload/v1585117253/pattern_2_aejfeg.png" className="card-img-top" alt="medical pattern" />
                       <div className="card-body text-center p-4">
                         <h4 className="card-title mb-4"> INRecord </h4>
