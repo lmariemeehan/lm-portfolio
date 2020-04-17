@@ -135,7 +135,7 @@ export default class IndexPage extends React.Component {
                           <p className="card-text pb-4">Built with: React, React Developer Tools Chrome extension for debugging, Babel for enabling JSX syntax support, 
                             React Router for client-side page transitions, Bootstrap for layout and style, and Git for version-control.</p>
                           <a href="https://lmariemeehan-bloc-jams-react.herokuapp.com/" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
-                          <a href="https://github.com/lmariemeehan/Resonate" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">Github</a>
+                          <a href="https://github.com/lmariemeehan/Resonate" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                         </div>
                       </div>
                
@@ -149,7 +149,7 @@ export default class IndexPage extends React.Component {
                         <p className="card-text">Built with: React, React Developer Tools Chrome extension for debugging, Babel for enabling JSX syntax, 
                           React Router for client-side page transitions, Bootstrap for layout and style, Git for version-control, and Firebase for the NoSQL database and user authentication.</p>
                         <a href="https://lmariemeehan-bloc-chat-react.herokuapp.com/" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
-                        <a href="https://github.com/lmariemeehan/Hello" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">Github</a>
+                        <a href="https://github.com/lmariemeehan/Hello" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                       </div>
                     </div>
                   </div>
@@ -163,7 +163,7 @@ export default class IndexPage extends React.Component {
                         <p className="card-text text-muted pb-3"> Node.js Wikipedia app </p>
                         <p className="card-text">Built with Node.js, Express.js, Morgan for debugging, Stripe API to charge users to upgrade, Sendgrid API for email responses, Passport for user authentication, Sequelize as the ORM, Jasmine for TDD testing, Markdown, bcrypt for hashed passwords, and PostgreSQL for the database.</p>
                         <a href="https://lmariemeehan-blocipedia.herokuapp.com/" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
-                        <a href="https://github.com/lmariemeehan/InQuisitive" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">Github</a>
+                        <a href="https://github.com/lmariemeehan/InQuisitive" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                       </div>
                     </div>
                   </div>
@@ -175,7 +175,7 @@ export default class IndexPage extends React.Component {
                         <p className="card-text text-muted pb-3">Node.js INR & Medication tracking app</p>
                         <p className="card-text">Built with Node.js, Express.js, Passport for user authentication, Sequelize as the ORM, Jasmine for TDD testing, bcrypt for hashed passwords, and MySQL for the database. I also plan on adding Cloudinary to store images to keep track of physical symptom changes.</p>
                         <a href="https://lmariemeehan-inr.herokuapp.com/" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
-                        <a href="https://github.com/lmariemeehan/inr" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">Github</a>
+                        <a href="https://github.com/lmariemeehan/inr" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                       </div>
                     </div>
                   </div>
