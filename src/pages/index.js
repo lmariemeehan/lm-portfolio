@@ -52,7 +52,7 @@ export default class IndexPage extends React.Component {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
-                <h2 className="text-white mt-0">About</h2>
+                <h2 className="text-white mt-0"> About </h2>
                 <hr className="divider light my-4"/>
                 <p className="text-white-50 mb-4">I've decided to make a career change after four years in payroll accounting
                  to pursue web development because it embodies what I love to do most, which is to create. After discovering web 
@@ -189,6 +189,31 @@ export default class IndexPage extends React.Component {
                           React Router for client-side page transitions, Bootstrap for layout and style, Git for version-control, and Firebase for the NoSQL database and user authentication.</p>
                         <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-bloc-chat-react.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                         <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/Hello" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="card m-4 border-0 shadow">
+                  <div className="row no-gutters">
+                    <div className="col-md-4">
+                      <img 
+                        className="card-img h-100" 
+                        src="https://res.cloudinary.com/laurameehan/image/upload/v1585116060/pattern_1_puyyyy.png" 
+                        alt="chat pattern" />
+                    </div>
+                    <div className="col-md-8">
+                      <div className="card-body bg-light">
+                        <h3 className="card-title my-3"> Hello </h3>
+                        <p className="card-text text-muted text-uppercase"> React.js Chat app </p>
+                        <p className="mb-2"><span className="mr-2 font-weight-bold">About: </span> 
+                          This was the second SPA web app that I built while undergoing my apprenticeship.
+                          Definitely more complicated than the last React project. This is a chat app that required adding Firebase in order to utilize both the user 
+                          authentication feature as well as it's NoSQL database to store user messages. Upon logging in, you are able to add & delete rooms as well as add & delete messages.</p>
+                        <p className="card-text"><span className="mr-2 font-weight-bold"> Built with: </span> React, React Tools Chrome extension for debugging, Babel, 
+                          React Router for client-side page transitions, Bootstrap for layout and style, Git for version-control, and Firebase for the NoSQL database and user authentication.</p>
+                        <a className="btn btn-primary card-link my-2" href="https://lauras-memegenerator.netlify.app/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
+                        <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/meme-generator" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                       </div>
                     </div>
                   </div>
