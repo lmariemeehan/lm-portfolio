@@ -139,63 +139,76 @@ export default class IndexPage extends React.Component {
           <h2 className="text-center text-white mt-0"> Portfolio </h2>
             <hr className="divider light my-4"/>
               <div className="container px-0">
-                <div className="row">
-                  <div className="col-lg-6 col-sm-6">
-                    <div className="card bg-light border-0 shadow">
+
+                <div className="card my-4 border-0 shadow"> 
+                  <div className="row no-gutters">
+                    <div className="col-md-4">
                       <img 
                         src="https://res.cloudinary.com/laurameehan/image/upload/v1585115417/pattern_tlysrn.png" 
-                        className="card-img-top" 
+                        className="card-img-fluid h-100" 
                         alt="music pattern" />
-                        <div className="card-body text-center p-4">
-                          <h4 className="card-title mb-4"> Resonate </h4>
-                          <p className="card-text text-muted pb-3"> React.js Music player</p>
-                          <p className="mb-2">
-                            <span className="mr-2"> About: </span> 
-                            Resonate was my first main SPA web app that I built while undergoing my apprenticeship. 
-                            It is similar to Spotify. In order to navigate between the landing page, the library page, 
-                            then finally onto a specific album I implemented the React Router to help with these page transitions. It has the
-                            ability to play, pause, skip forward, skip backwards, and raise/lower volume.
-                          </p>
-                          <p className="card-text"><span className="mr-2"> Built with: </span> 
-                            React, React Developer Tools Chrome extension for debugging, Babel for enabling JSX syntax support, 
-                            React Router for client-side page transitions, Bootstrap for layout and style, and Git for version-control.
-                          </p>
-                          <a href="https://lmariemeehan-bloc-jams-react.herokuapp.com/" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
-                          <a href="https://github.com/lmariemeehan/Resonate" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
-                        </div>
-                      </div>
-               
-                  </div>
-                  <div className="col-lg-6 col-sm-6">
-                    <div className="card bg-light border-0 shadow">
-                      <img src="https://res.cloudinary.com/laurameehan/image/upload/v1585116060/pattern_1_puyyyy.png" className="card-img-top" alt="chat pattern" />
-                      <div className="card-body text-center p-4">
-                        <h4 className="card-title mb-4"> Hello </h4>
-                        <p className="card-text text-muted pb-3"> React.js Chat app </p>
-                        <p className="mb-2"><span className="mr-2">About: </span> This was the second SPA web app that I built while undergoing my apprenticeship.
-                        Definitely more complicated than the last React project. This required adding Firebase in order to utilize both the user 
-                        authentication feature as well as it's NoSQL database to store user messages. Upon logging in, you are able to add & delete rooms as well as add & delete messages.</p>
-                        <p className="card-text"><span className="mr-2"> Built with: </span> React, React Tools Chrome extension for debugging, Babel, 
-                          React Router for client-side page transitions, Bootstrap for layout and style, Git for version-control, and Firebase for the NoSQL database and user authentication.</p>
-                        <a href="https://lmariemeehan-bloc-chat-react.herokuapp.com/" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
-                        <a href="https://github.com/lmariemeehan/Hello" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
+                    </div>
+                    <div className="col-md-8">
+                      <div className="card-body bg-light">
+                        <h4 className="card-title mb-4"> Resonate </h4>
+                        <p className="card-text text-muted pb-2"> React.js Music player</p>
+                        <p className="mb-2">
+                          <span className="mr-2"> About: </span> 
+                          Resonate was my first main SPA web app that I built while undergoing my apprenticeship. 
+                          It is similar to Spotify. In order to navigate between the landing page, the library page, 
+                          then finally onto a specific album I implemented the React Router to help with these page transitions. It has the
+                          ability to play, pause, skip forward, skip backwards, and raise/lower volume.
+                        </p>
+                        <p className="card-text"><span className="mr-2"> Built with: </span> 
+                          React, React Developer Tools Chrome extension for debugging, Babel for enabling JSX syntax support, 
+                          React Router for client-side page transitions, Bootstrap for layout and style, and Git for version-control.
+                        </p>
+                        <a href="https://lmariemeehan-bloc-jams-react.herokuapp.com/" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
+                        <a href="https://github.com/lmariemeehan/Resonate" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="row mt-4">
-                  <div className="col-lg-6 col-sm-6">
-                    <div className="card bg-light border-0 shadow">
-                      <img src="https://res.cloudinary.com/laurameehan/image/upload/v1585117001/pattern_3_forpgk.png" className="card-img-top" alt="wikipedia pattern" />
-                      <div className="card-body text-center p-4">
-                        <h4 className="card-title mb-4"> InQuisitive </h4>
-                        <p className="card-text text-muted pb-3"> Node.js Wikipedia app </p>
-                        <p className="card-text">Built with Node.js, Express.js, Morgan for debugging, Stripe API to charge users to upgrade, Sendgrid API for email responses, Passport for user authentication, Sequelize as the ORM, Jasmine for TDD testing, Markdown, bcrypt for hashed passwords, and PostgreSQL for the database.</p>
-                        <a href="https://lmariemeehan-blocipedia.herokuapp.com/" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
-                        <a href="https://github.com/lmariemeehan/InQuisitive" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
+
+                <div className="card my-4 border-0 shadow">
+                  <div className="row no-gutters">
+                    <div className="col-md-4">
+                      <img className="card-img h-100" src="https://res.cloudinary.com/laurameehan/image/upload/v1585116060/pattern_1_puyyyy.png" alt="chat pattern" />
+                    </div>
+                    <div className="col-md-8">
+                      <div className="card-body bg-light">
+                        <h4 className="card-title mb-4"> Hello </h4>
+                        <p className="card-text text-muted pb-2"> React.js Chat app </p>
+                        <p className="mb-2"><span className="mr-2">About: </span> This was the second SPA web app that I built while undergoing my apprenticeship.
+                          Definitely more complicated than the last React project. This required adding Firebase in order to utilize both the user 
+                          authentication feature as well as it's NoSQL database to store user messages. Upon logging in, you are able to add & delete rooms as well as add & delete messages.</p>
+                        <p className="card-text"><span className="mr-2"> Built with: </span> React, React Tools Chrome extension for debugging, Babel, 
+                          React Router for client-side page transitions, Bootstrap for layout and style, Git for version-control, and Firebase for the NoSQL database and user authentication.</p>
+                        <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-bloc-chat-react.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
+                        <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/Hello" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                       </div>
                     </div>
                   </div>
+                </div>
+
+                <div className="card my-4 border-0 shadow">
+                  <div className="row no-gutters">
+                    <div className="col-md-4">
+                      <img className="card-img-fluid h-100" src="https://res.cloudinary.com/laurameehan/image/upload/v1585117001/pattern_3_forpgk.png" alt="wikipedia pattern" />
+                    </div>
+                    <div className="col-md-8">
+                      <div className="card-body bg-light">
+                        <h4 className="card-title mb-4"> InQuisitive </h4>
+                        <p className="card-text text-muted pb-2"> Node.js Wikipedia app </p>
+                        <p className="card-text">Built with Node.js, Express.js, Morgan for debugging, Stripe API to charge users to upgrade, Sendgrid API for email responses, Passport for user authentication, 
+                          Sequelize as the ORM, Jasmine for TDD testing, Markdown, bcrypt for hashed passwords, and PostgreSQL for the database.</p>
+                        <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-blocipedia.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
+                        <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/InQuisitive" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
                   <div className="col">
                     <div className="card bg-light border-0 shadow">
                       <img src="https://res.cloudinary.com/laurameehan/image/upload/v1585117253/pattern_2_aejfeg.png" className="card-img-top" alt="medical pattern" />
@@ -209,7 +222,7 @@ export default class IndexPage extends React.Component {
                     </div>
                   </div>
                 </div>   
-              </div>
+    
               <div className="container-fluid mt-5 px-0">
                 <div className="row no-gutters pt-5 mt-5">
                   <div className="col-lg-6 col-sm-6">
