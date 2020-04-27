@@ -76,7 +76,7 @@ export default class IndexPage extends React.Component {
                   <p className="text-muted mb-0"><i className="fab fa-html5 mr-2"></i>HTML</p>
                   <p className="text-muted mb-0"><i className="fab fa-css3-alt mr-2"></i>CSS</p>
                   <p className="text-muted mb-0"><i className="fab fa-js mr-2"></i>JavaScript</p>
-                  <p className="text-muted mb-0"><Icon icon={consoleSqlOutlined} className="mr-2" />SQL</p>
+                  <p className="text-muted mb-0"><Icon className="mr-2" icon={consoleSqlOutlined} />SQL</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
@@ -84,11 +84,11 @@ export default class IndexPage extends React.Component {
                   <i className="fas fa-4x fa-laptop-code text-primary mb-4"></i>
                   <h3 className="h4 mb-2"> Libraries/Frameworks </h3>
                   <p className="text-muted mb-0"><i className="fab fa-react mr-2"></i>React</p>
-                  <p className="text-muted mb-0"><Icon icon={gatsbyIcon} className="mr-2"/> Gatsby</p>
-                  <p className="text-muted mb-0"><Icon icon={nextjsIcon} className="mr-2"/> Next.js</p>
+                  <p className="text-muted mb-0"><Icon className="mr-2" icon={gatsbyIcon} /> Gatsby</p>
+                  <p className="text-muted mb-0"><Icon className="mr-2" icon={nextjsIcon} /> Next.js</p>
                   <p className="text-muted mb-0"><i className="fab fa-node-js mr-2"></i>Node.js</p>
-                  <p className="text-muted mb-0"><Icon icon={expressIcon} className="mr-2" />Express.js</p>
-                  <p className="text-muted mb-0"><Icon icon={jqueryIcon} className="mr-2" />jQuery</p>
+                  <p className="text-muted mb-0"><Icon className="mr-2" icon={expressIcon} />Express.js</p>
+                  <p className="text-muted mb-0"><Icon className="mr-2" icon={jqueryIcon} />jQuery</p>
                   <p className="text-muted mb-0"><i className="fab fa-bootstrap mr-2"></i>Bootstrap</p>
                   <p className="text-muted mb-0"><i className="fab fa-sass mr-2"></i>Sass</p>
                 </div>
@@ -99,19 +99,19 @@ export default class IndexPage extends React.Component {
                   <h3 className="h4 mb-2">  Tools </h3>
                   <p className="text-muted mb-0"><i className="fab fa-github mr-2"></i>Github</p>
                   <p className="text-muted mb-0"><i className="fab fa-trello mr-2"></i>Trello</p>
-                  <p className="text-muted mb-0"><Icon icon={herokuIcon} className="mr-2"/>Heroku</p>
-                  <p className="text-muted mb-0"><Icon icon={firebaseIcon} className="mr-2"/>Firebase</p>
-                  <p className="text-muted mb-0"><Icon icon={postgresqlIcon} className="mr-2"/>PostgreSQL</p>
-                  <p className="text-muted mb-0"><Icon icon={mysqlIcon} className="mr-2" id="mysql"/>MySQL</p>
+                  <p className="text-muted mb-0"><Icon className="mr-2" icon={herokuIcon} />Heroku</p>
+                  <p className="text-muted mb-0"><Icon className="mr-2" icon={firebaseIcon} />Firebase</p>
+                  <p className="text-muted mb-0"><Icon className="mr-2" icon={postgresqlIcon} />PostgreSQL</p>
+                  <p className="text-muted mb-0"><Icon className="mr-2" icon={mysqlIcon} id="mysql"/>MySQL</p>
                   <p className="text-muted mb-0">
                     <img 
+                      className="mr-2"
                       src="https://res.cloudinary.com/laurameehan/image/upload/c_scale,co_rgb:6c757d,e_grayscale,h_16,w_16/v1573537737/samples/cloudinary-icon.png" 
-                      className="mr-2" 
                       alt="cloudinary icon" />Cloudinary</p>
                   <p className="text-muted mb-0">
                     <img 
-                      src="https://res.cloudinary.com/laurameehan/image/upload/c_scale,h_16,w_16/v1583189152/icons8-command-line-50_hig8v5.png" 
                       className="mr-2" 
+                      src="https://res.cloudinary.com/laurameehan/image/upload/c_scale,h_16,w_16/v1583189152/icons8-command-line-50_hig8v5.png" 
                       alt="command line icon" />Command Line</p>
                 </div>
               </div>
@@ -119,13 +119,13 @@ export default class IndexPage extends React.Component {
                 <div className="mt-5">
                   <i className="fas fa-4x fa-heart text-primary mb-4"></i>
                   <h3 className="h4 mb-2">Made with Love</h3>
-                  <p className="text-muted mb-0"><Icon icon={responsiveIcon} className="mr-2" />Responsive Design</p>
+                  <p className="text-muted mb-0"><Icon className="mr-2" icon={responsiveIcon} />Responsive Design</p>
                   <p className="text-muted mb-0">
                     <img 
+                      className="mr-2" 
                       src="https://res.cloudinary.com/laurameehan/image/upload/v1583133133/jasmine-16_umnesr.svg" 
                       height="16" 
                       width="16" 
-                      className="mr-2" 
                       alt="jasmine testing icon" />Jasmine Testing</p>
                   <p className="text-muted mb-0"><i className="fas fa-sitemap mr-2"></i>MVC Architecture</p>
                   <p className="text-muted mb-0"><i className="fas fa-universal-access mr-2"></i>Web Accessible</p>
@@ -138,51 +138,55 @@ export default class IndexPage extends React.Component {
         <section className="page-section bg-dark " id="portfolio">
           <h2 className="text-center text-white mt-0"> Portfolio </h2>
             <hr className="divider light my-4"/>
-              <div className="container px-0">
+              <div className="container">
 
-                <div className="card my-4 border-0 shadow"> 
+                <div className="card m-4 border-0 shadow"> 
                   <div className="row no-gutters">
                     <div className="col-md-4">
                       <img 
+                        className="card-img h-100"
                         src="https://res.cloudinary.com/laurameehan/image/upload/v1585115417/pattern_tlysrn.png" 
-                        className="card-img-fluid h-100" 
                         alt="music pattern" />
                     </div>
                     <div className="col-md-8">
                       <div className="card-body bg-light">
-                        <h4 className="card-title mb-4"> Resonate </h4>
-                        <p className="card-text text-muted pb-2"> React.js Music player</p>
+                        <h3 className="card-title my-3"> Resonate </h3>
+                        <p className="card-text text-muted text-uppercase"> React.js Music player</p>
                         <p className="mb-2">
-                          <span className="mr-2"> About: </span> 
+                          <span className="mr-2 font-weight-bold"> About: </span> 
                           Resonate was my first main SPA web app that I built while undergoing my apprenticeship. 
                           It is similar to Spotify. In order to navigate between the landing page, the library page, 
-                          then finally onto a specific album I implemented the React Router to help with these page transitions. It has the
-                          ability to play, pause, skip forward, skip backwards, and raise/lower volume.
+                          then finally onto a specific album I implemented the React Router to help with these page transitions. 
+                          It has the ability to play, pause, skip forward, skip backwards, and raise/lower volume.
                         </p>
-                        <p className="card-text"><span className="mr-2"> Built with: </span> 
+                        <p className="card-text"><span className="mr-2 font-weight-bold"> Built with: </span> 
                           React, React Developer Tools Chrome extension for debugging, Babel for enabling JSX syntax support, 
                           React Router for client-side page transitions, Bootstrap for layout and style, and Git for version-control.
                         </p>
-                        <a href="https://lmariemeehan-bloc-jams-react.herokuapp.com/" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
-                        <a href="https://github.com/lmariemeehan/Resonate" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
+                        <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-bloc-jams-react.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
+                        <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/Resonate" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div className="card my-4 border-0 shadow">
+                <div className="card m-4 border-0 shadow">
                   <div className="row no-gutters">
                     <div className="col-md-4">
-                      <img className="card-img h-100" src="https://res.cloudinary.com/laurameehan/image/upload/v1585116060/pattern_1_puyyyy.png" alt="chat pattern" />
+                      <img 
+                        className="card-img h-100" 
+                        src="https://res.cloudinary.com/laurameehan/image/upload/v1585116060/pattern_1_puyyyy.png" 
+                        alt="chat pattern" />
                     </div>
                     <div className="col-md-8">
                       <div className="card-body bg-light">
-                        <h4 className="card-title mb-4"> Hello </h4>
-                        <p className="card-text text-muted pb-2"> React.js Chat app </p>
-                        <p className="mb-2"><span className="mr-2">About: </span> This was the second SPA web app that I built while undergoing my apprenticeship.
-                          Definitely more complicated than the last React project. This required adding Firebase in order to utilize both the user 
+                        <h3 className="card-title my-3"> Hello </h3>
+                        <p className="card-text text-muted text-uppercase"> React.js Chat app </p>
+                        <p className="mb-2"><span className="mr-2 font-weight-bold">About: </span> 
+                          This was the second SPA web app that I built while undergoing my apprenticeship.
+                          Definitely more complicated than the last React project. This is a chat app that required adding Firebase in order to utilize both the user 
                           authentication feature as well as it's NoSQL database to store user messages. Upon logging in, you are able to add & delete rooms as well as add & delete messages.</p>
-                        <p className="card-text"><span className="mr-2"> Built with: </span> React, React Tools Chrome extension for debugging, Babel, 
+                        <p className="card-text"><span className="mr-2 font-weight-bold"> Built with: </span> React, React Tools Chrome extension for debugging, Babel, 
                           React Router for client-side page transitions, Bootstrap for layout and style, Git for version-control, and Firebase for the NoSQL database and user authentication.</p>
                         <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-bloc-chat-react.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                         <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/Hello" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
@@ -191,16 +195,21 @@ export default class IndexPage extends React.Component {
                   </div>
                 </div>
 
-                <div className="card my-4 border-0 shadow">
+                <div className="card m-4 border-0 shadow">
                   <div className="row no-gutters">
                     <div className="col-md-4">
-                      <img className="card-img-fluid h-100" src="https://res.cloudinary.com/laurameehan/image/upload/v1585117001/pattern_3_forpgk.png" alt="wikipedia pattern" />
+                      <img 
+                        className="card-img h-100" 
+                        src="https://res.cloudinary.com/laurameehan/image/upload/v1585117001/pattern_3_forpgk.png" 
+                        alt="wikipedia pattern" />
                     </div>
                     <div className="col-md-8">
                       <div className="card-body bg-light">
-                        <h4 className="card-title mb-4"> InQuisitive </h4>
-                        <p className="card-text text-muted pb-2"> Node.js Wikipedia app </p>
-                        <p className="card-text">Built with Node.js, Express.js, Morgan for debugging, Stripe API to charge users to upgrade, Sendgrid API for email responses, Passport for user authentication, 
+                        <h3 className="card-title my-3"> InQuisitive </h3>
+                        <p className="card-text text-muted text-uppercase"> Node.js Wikipedia app </p>
+                        <p className="card-text"><span className="mr-2 font-weight-bold">About: </span> This is a wikipedia app</p>
+                        <p className="card-text"><span className="mr-2 font-weight-bold">Built with: </span> 
+                          Node.js, Express.js, Morgan for debugging, Stripe API to charge users to upgrade, Sendgrid API for email responses, Passport for user authentication, 
                           Sequelize as the ORM, Jasmine for TDD testing, Markdown, bcrypt for hashed passwords, and PostgreSQL for the database.</p>
                         <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-blocipedia.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                         <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/InQuisitive" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
@@ -209,19 +218,26 @@ export default class IndexPage extends React.Component {
                   </div>
                 </div>
 
-                  <div className="col">
-                    <div className="card bg-light border-0 shadow">
-                      <img src="https://res.cloudinary.com/laurameehan/image/upload/v1585117253/pattern_2_aejfeg.png" className="card-img-top" alt="medical pattern" />
-                      <div className="card-body text-center p-4">
-                        <h4 className="card-title mb-4"> INRecord </h4>
-                        <p className="card-text text-muted pb-3">Node.js INR & Medication tracking app</p>
-                        <p className="card-text">Built with Node.js, Express.js, Passport for user authentication, Sequelize as the ORM, Jasmine for TDD testing, bcrypt for hashed passwords, and MySQL for the database. I also plan on adding Cloudinary to store images to keep track of physical symptom changes.</p>
-                        <a href="https://lmariemeehan-inr.herokuapp.com/" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
-                        <a href="https://github.com/lmariemeehan/inr" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
+                <div className="card m-4 border-0 shadow">
+                  <div className="row no-gutters">
+                    <div className="col-md-4">
+                      <img 
+                        className="card-img h-100" 
+                        src="https://res.cloudinary.com/laurameehan/image/upload/v1585117253/pattern_2_aejfeg.png" 
+                        alt="medical pattern" />
+                    </div>
+                    <div className="col-md-8">
+                      <div className="card-body bg-light p-4">
+                        <h3 className="card-title mb-4"> INRecord </h3>
+                        <p className="card-text text-muted text-uppercase">Node.js INR & Medication tracking app</p>
+                        <p className="card-text"><span className="mr-2 font-weight-bold">Built with: </span> Node.js, Express.js, Passport for user authentication, Sequelize as the ORM, Jasmine for TDD testing, bcrypt for hashed passwords, and MySQL for the database. I also plan on adding Cloudinary to store images to keep track of physical symptom changes.</p>
+                        <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-inr.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
+                        <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/inr" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                       </div>
                     </div>
                   </div>
-                </div>   
+                </div>
+              </div>   
     
               <div className="container-fluid mt-5 px-0">
                 <div className="row no-gutters pt-5 mt-5">
