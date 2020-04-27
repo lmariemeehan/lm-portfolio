@@ -199,19 +199,17 @@ export default class IndexPage extends React.Component {
                     <div className="col-md-4">
                       <img 
                         className="card-img h-100" 
-                        src="https://res.cloudinary.com/laurameehan/image/upload/v1585116060/pattern_1_puyyyy.png" 
+                        src="https://res.cloudinary.com/laurameehan/image/upload/v1588020376/pattern_4_asdvwk.png" 
                         alt="chat pattern" />
                     </div>
                     <div className="col-md-8">
                       <div className="card-body bg-light">
-                        <h3 className="card-title my-3"> Hello </h3>
-                        <p className="card-text text-muted text-uppercase"> React.js Chat app </p>
+                        <h3 className="card-title my-3"> Memes </h3>
+                        <p className="card-text text-muted text-uppercase"> React.js Meme Generator app </p>
                         <p className="mb-2"><span className="mr-2 font-weight-bold">About: </span> 
-                          This was the second SPA web app that I built while undergoing my apprenticeship.
-                          Definitely more complicated than the last React project. This is a chat app that required adding Firebase in order to utilize both the user 
-                          authentication feature as well as it's NoSQL database to store user messages. Upon logging in, you are able to add & delete rooms as well as add & delete messages.</p>
-                        <p className="card-text"><span className="mr-2 font-weight-bold"> Built with: </span> React, React Tools Chrome extension for debugging, Babel, 
-                          React Router for client-side page transitions, Bootstrap for layout and style, Git for version-control, and Firebase for the NoSQL database and user authentication.</p>
+                          This was just built for fun and to help solidfy my knowlege of React. I added an api for the images that you see and set it up so that they cycle through at random. 
+                          Just a little, simple, quick app but loads of fun!</p>
+                        <p className="card-text"><span className="mr-2 font-weight-bold"> Built with: </span> React, Git for version-control, and CSS for style.</p>
                         <a className="btn btn-primary card-link my-2" href="https://lauras-memegenerator.netlify.app/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                         <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/meme-generator" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                       </div>
