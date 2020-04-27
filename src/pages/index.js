@@ -154,9 +154,8 @@ export default class IndexPage extends React.Component {
                         <p className="card-text text-muted text-uppercase"> React.js Music player</p>
                         <p className="mb-2">
                           <span className="mr-2 font-weight-bold"> About: </span> 
-                          Resonate was my first main SPA web app that I built while undergoing my apprenticeship. 
-                          It is similar to Spotify. In order to navigate between the landing page, the library page, 
-                          then finally onto a specific album I implemented the React Router to help with these page transitions. 
+                          Resonate was my first main SPA web app that I built while undergoing my apprenticeship. It is similar to Spotify. In order to navigate 
+                          between the landing page, the library page, then finally onto a specific album I implemented the React Router to help with these page transitions. 
                           It has the ability to play, pause, skip forward, skip backwards, and raise/lower volume.
                         </p>
                         <p className="card-text"><span className="mr-2 font-weight-bold"> Built with: </span> 
@@ -207,8 +206,9 @@ export default class IndexPage extends React.Component {
                       <div className="card-body bg-light">
                         <h3 className="card-title my-3"> InQuisitive </h3>
                         <p className="card-text text-muted text-uppercase"> Node.js Wikipedia app </p>
-                        <p className="card-text"><span className="mr-2 font-weight-bold">About: </span> This is a wikipedia app with the ability to create, share, and collaborate markdown wikis. 
-                          Users are able to create wikis on either a public level or on a private level depending on their status. Users can upgrade to premium level thereby allowing him/her to make private wikis to share with
+                        <p className="card-text"><span className="mr-2 font-weight-bold">About: </span> 
+                          This is a wikipedia app with the ability to create, share, and collaborate markdown wikis. Users are able to create wikis on either a 
+                          public level or on a private level depending on their status. Users can upgrade to premium level thereby allowing him/her to make private wikis to share with
                           only people of their choice. This is done by making a payment through Stripe (which is an API) that I added.</p>
                         <p className="card-text"><span className="mr-2 font-weight-bold">Built with: </span> 
                           Node.js, Express.js, Morgan for debugging, Stripe API to charge users to upgrade, Sendgrid API for email responses, Passport for user authentication, 
@@ -232,7 +232,14 @@ export default class IndexPage extends React.Component {
                       <div className="card-body bg-light p-4">
                         <h3 className="card-title mb-4"> INRecord </h3>
                         <p className="card-text text-muted text-uppercase">Node.js INR & Medication tracking app</p>
-                        <p className="card-text"><span className="mr-2 font-weight-bold">Built with: </span> Node.js, Express.js, Passport for user authentication, Sequelize as the ORM, Jasmine for TDD testing, bcrypt for hashed passwords, and MySQL for the database. I also plan on adding Cloudinary to store images to keep track of physical symptom changes.</p>
+                        <p className="card-text"><span className="mr-2 font-weight-bold">About: </span>
+                          I built this app for my husband. Long story short, several years ago he needed to have a heart surgery where his aortic valve had to be replaced with a mechanical one. 
+                          Because of this mechanical valve, he needs to take Coumadin for the rest of his life in order to prevent having strokes. And on a regular basis, he gets his "INR" levels checked to make sure 
+                          he is within range (if he is not, then a stroke is a possibility and so his Coumadin dosage amounts would get adjusted to get him back in range). So I built this app, so he could have a visual way 
+                          where he could enter and view all of his INR results in one place. I also added a place where he could keep track of all of his medications and their dosages as well a place to keep track of his doctor 
+                          appointments. I also have future plans to add a section for symptoms where he could jot down what he is experiencing as well as add images if his issue is visible.</p>
+                        <p className="card-text"><span className="mr-2 font-weight-bold">Built with: </span> Node.js, Express.js, Passport for user authentication, Sequelize as the ORM, Jasmine for TDD testing, 
+                          bcrypt for hashed passwords, and MySQL for the database. I also plan on adding Cloudinary to store images to keep track of physical symptom changes.</p>
                         <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-inr.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                         <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/inr" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                       </div>
