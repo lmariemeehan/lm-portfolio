@@ -103,8 +103,16 @@ export default class IndexPage extends React.Component {
                   <p className="text-muted mb-0"><Icon icon={firebaseIcon} className="mr-2"/>Firebase</p>
                   <p className="text-muted mb-0"><Icon icon={postgresqlIcon} className="mr-2"/>PostgreSQL</p>
                   <p className="text-muted mb-0"><Icon icon={mysqlIcon} className="mr-2" id="mysql"/>MySQL</p>
-                  <p className="text-muted mb-0"><img src="https://res.cloudinary.com/laurameehan/image/upload/c_scale,co_rgb:6c757d,e_grayscale,h_16,w_16/v1573537737/samples/cloudinary-icon.png" className="mr-2" alt="cloudinary icon" />Cloudinary</p>
-                  <p className="text-muted mb-0"><img src="https://res.cloudinary.com/laurameehan/image/upload/c_scale,h_16,w_16/v1583189152/icons8-command-line-50_hig8v5.png" className="mr-2" alt="command line icon" />Command Line</p>
+                  <p className="text-muted mb-0">
+                    <img 
+                      src="https://res.cloudinary.com/laurameehan/image/upload/c_scale,co_rgb:6c757d,e_grayscale,h_16,w_16/v1573537737/samples/cloudinary-icon.png" 
+                      className="mr-2" 
+                      alt="cloudinary icon" />Cloudinary</p>
+                  <p className="text-muted mb-0">
+                    <img 
+                      src="https://res.cloudinary.com/laurameehan/image/upload/c_scale,h_16,w_16/v1583189152/icons8-command-line-50_hig8v5.png" 
+                      className="mr-2" 
+                      alt="command line icon" />Command Line</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
@@ -112,7 +120,13 @@ export default class IndexPage extends React.Component {
                   <i className="fas fa-4x fa-heart text-primary mb-4"></i>
                   <h3 className="h4 mb-2">Made with Love</h3>
                   <p className="text-muted mb-0"><Icon icon={responsiveIcon} className="mr-2" />Responsive Design</p>
-                  <p className="text-muted mb-0"><img src="https://res.cloudinary.com/laurameehan/image/upload/v1583133133/jasmine-16_umnesr.svg" height="16" width="16" className="mr-2" alt="jasmine testing icon" />Jasmine Testing</p>
+                  <p className="text-muted mb-0">
+                    <img 
+                      src="https://res.cloudinary.com/laurameehan/image/upload/v1583133133/jasmine-16_umnesr.svg" 
+                      height="16" 
+                      width="16" 
+                      className="mr-2" 
+                      alt="jasmine testing icon" />Jasmine Testing</p>
                   <p className="text-muted mb-0"><i className="fas fa-sitemap mr-2"></i>MVC Architecture</p>
                   <p className="text-muted mb-0"><i className="fas fa-universal-access mr-2"></i>Web Accessible</p>
                 </div>
@@ -128,12 +142,24 @@ export default class IndexPage extends React.Component {
                 <div className="row">
                   <div className="col-lg-6 col-sm-6">
                     <div className="card bg-light border-0 shadow">
-                      <img src="https://res.cloudinary.com/laurameehan/image/upload/v1585115417/pattern_tlysrn.png" className="card-img-top" alt="music pattern" />
+                      <img 
+                        src="https://res.cloudinary.com/laurameehan/image/upload/v1585115417/pattern_tlysrn.png" 
+                        className="card-img-top" 
+                        alt="music pattern" />
                         <div className="card-body text-center p-4">
                           <h4 className="card-title mb-4"> Resonate </h4>
                           <p className="card-text text-muted pb-3"> React.js Music player</p>
-                          <p className="card-text pb-4">Built with: React, React Developer Tools Chrome extension for debugging, Babel for enabling JSX syntax support, 
-                            React Router for client-side page transitions, Bootstrap for layout and style, and Git for version-control.</p>
+                          <p className="mb-2">
+                            <span className="mr-2"> About: </span> 
+                            Resonate was my first main SPA web app that I built while undergoing my apprenticeship. 
+                            It is similar to Spotify. In order to navigate between the landing page, to the library page, 
+                            then finally to a specific album I implemented the React Router in order to help with these page transitions. It has the
+                            ability to play, pause, skip forward, skip backwards, and raise/lower volume.
+                          </p>
+                          <p className="card-text pb-4"><span className="mr-2">Built with:</span> 
+                            React, React Developer Tools Chrome extension for debugging, Babel for enabling JSX syntax support, 
+                            React Router for client-side page transitions, Bootstrap for layout and style, and Git for version-control.
+                          </p>
                           <a href="https://lmariemeehan-bloc-jams-react.herokuapp.com/" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                           <a href="https://github.com/lmariemeehan/Resonate" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                         </div>
