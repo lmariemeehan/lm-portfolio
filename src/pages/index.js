@@ -152,11 +152,11 @@ export default class IndexPage extends React.Component {
                           <p className="mb-2">
                             <span className="mr-2"> About: </span> 
                             Resonate was my first main SPA web app that I built while undergoing my apprenticeship. 
-                            It is similar to Spotify. In order to navigate between the landing page, to the library page, 
-                            then finally to a specific album I implemented the React Router in order to help with these page transitions. It has the
+                            It is similar to Spotify. In order to navigate between the landing page, the library page, 
+                            then finally onto a specific album I implemented the React Router to help with these page transitions. It has the
                             ability to play, pause, skip forward, skip backwards, and raise/lower volume.
                           </p>
-                          <p className="card-text pb-4"><span className="mr-2">Built with:</span> 
+                          <p className="card-text"><span className="mr-2"> Built with: </span> 
                             React, React Developer Tools Chrome extension for debugging, Babel for enabling JSX syntax support, 
                             React Router for client-side page transitions, Bootstrap for layout and style, and Git for version-control.
                           </p>
@@ -172,7 +172,10 @@ export default class IndexPage extends React.Component {
                       <div className="card-body text-center p-4">
                         <h4 className="card-title mb-4"> Hello </h4>
                         <p className="card-text text-muted pb-3"> React.js Chat app </p>
-                        <p className="card-text">Built with: React, React Developer Tools Chrome extension for debugging, Babel for enabling JSX syntax, 
+                        <p className="mb-2"><span className="mr-2">About: </span> This was the second SPA web app that I built while undergoing my apprenticeship.
+                        Definitely more complicated than the last React project. This required adding Firebase in order to utilize both the user 
+                        authentication feature as well as it's NoSQL database to store user messages. Upon logging in, you are able to add & delete rooms as well as add & delete messages.</p>
+                        <p className="card-text"><span className="mr-2"> Built with: </span> React, React Tools Chrome extension for debugging, Babel, 
                           React Router for client-side page transitions, Bootstrap for layout and style, Git for version-control, and Firebase for the NoSQL database and user authentication.</p>
                         <a href="https://lmariemeehan-bloc-chat-react.herokuapp.com/" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                         <a href="https://github.com/lmariemeehan/Hello" className="btn btn-primary card-link my-2" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
@@ -205,7 +208,7 @@ export default class IndexPage extends React.Component {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div>   
               </div>
               <div className="container-fluid mt-5 px-0">
                 <div className="row no-gutters pt-5 mt-5">
