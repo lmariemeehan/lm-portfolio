@@ -174,7 +174,7 @@ export default class IndexPage extends React.Component {
                     <div className="col-md-4">
                       <img 
                         className="card-img h-100" 
-                        src="https://res.cloudinary.com/laurameehan/image/upload/v1585116060/pattern_1_puyyyy.png" 
+                        src="https://res.cloudinary.com/laurameehan/image/upload/v1588021203/pattern_5_rwm2vu.png" 
                         alt="chat pattern" />
                     </div>
                     <div className="col-md-8">
