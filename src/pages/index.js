@@ -207,7 +207,9 @@ export default class IndexPage extends React.Component {
                       <div className="card-body bg-light">
                         <h3 className="card-title my-3"> InQuisitive </h3>
                         <p className="card-text text-muted text-uppercase"> Node.js Wikipedia app </p>
-                        <p className="card-text"><span className="mr-2 font-weight-bold">About: </span> This is a wikipedia app</p>
+                        <p className="card-text"><span className="mr-2 font-weight-bold">About: </span> This is a wikipedia app with the ability to create, share, and collaborate markdown wikis. 
+                          Users are able to create wikis on either a public level or on a private level depending on their status. Users can upgrade to premium level thereby allowing him/her to make private wikis to share with
+                          only people of their choice. This is done by making a payment through Stripe (which is an API) that I added.</p>
                         <p className="card-text"><span className="mr-2 font-weight-bold">Built with: </span> 
                           Node.js, Express.js, Morgan for debugging, Stripe API to charge users to upgrade, Sendgrid API for email responses, Passport for user authentication, 
                           Sequelize as the ORM, Jasmine for TDD testing, Markdown, bcrypt for hashed passwords, and PostgreSQL for the database.</p>
