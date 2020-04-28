@@ -138,13 +138,13 @@ export default class IndexPage extends React.Component {
         <section className="page-section bg-dark " id="portfolio">
           <h2 className="text-center text-white mt-0"> Portfolio </h2>
             <hr className="divider light my-4"/>
-              <div className="container">
+              <div className="container-fluid">
 
                 <div className="card m-4 border-0 shadow"> 
                   <div className="row no-gutters">
                     <div className="col-md-4">
                       <img 
-                        className="card-img h-100"
+                        className="card-img-fluid h-100"
                         src="https://res.cloudinary.com/laurameehan/image/upload/v1585115417/pattern_tlysrn.png" 
                         alt="music pattern" />
                     </div>
@@ -173,7 +173,7 @@ export default class IndexPage extends React.Component {
                   <div className="row no-gutters">
                     <div className="col-md-4">
                       <img 
-                        className="card-img h-100" 
+                        className="card-img-fluid h-100" 
                         src="https://res.cloudinary.com/laurameehan/image/upload/v1588021203/pattern_5_rwm2vu.png" 
                         alt="chat pattern" />
                     </div>
@@ -198,12 +198,12 @@ export default class IndexPage extends React.Component {
                   <div className="row no-gutters">
                     <div className="col-md-4">
                       <img 
-                        className="card-img h-100" 
+                        className="card-img-fluid h-100" 
                         src="https://res.cloudinary.com/laurameehan/image/upload/v1588020376/pattern_4_asdvwk.png" 
                         alt="chat pattern" />
                     </div>
                     <div className="col-md-8">
-                      <div className="card-body bg-light">
+                      <div className="card-body bg-light h-100">
                         <h3 className="card-title my-3"> Memes </h3>
                         <p className="card-text text-muted text-uppercase"> React.js Meme Generator app </p>
                         <p className="mb-2"><span className="mr-2 font-weight-bold">About: </span> 
@@ -221,7 +221,7 @@ export default class IndexPage extends React.Component {
                   <div className="row no-gutters">
                     <div className="col-md-4">
                       <img 
-                        className="card-img h-100" 
+                        className="card-img-fluid h-100" 
                         src="https://res.cloudinary.com/laurameehan/image/upload/v1585117001/pattern_3_forpgk.png" 
                         alt="wikipedia pattern" />
                     </div>
@@ -247,7 +247,7 @@ export default class IndexPage extends React.Component {
                   <div className="row no-gutters">
                     <div className="col-md-4">
                       <img 
-                        className="card-img h-100" 
+                        className="card-img-fluid h-100" 
                         src="https://res.cloudinary.com/laurameehan/image/upload/v1585117253/pattern_2_aejfeg.png" 
                         alt="medical pattern" />
                     </div>
@@ -256,11 +256,11 @@ export default class IndexPage extends React.Component {
                         <h3 className="card-title mb-4"> INRecord </h3>
                         <p className="card-text text-muted text-uppercase">Node.js INR & Medication tracking app</p>
                         <p className="card-text"><span className="mr-2 font-weight-bold">About: </span>
-                          I built this app for my husband. Long story short, several years ago he needed to have a heart surgery where his aortic valve had to be replaced with a mechanical one. 
-                          Because of this mechanical valve, he needs to take Coumadin for the rest of his life in order to prevent having strokes. And on a regular basis, he gets his "INR" levels checked to make sure 
-                          he is within range (if he is not, then a stroke is a possibility and so his Coumadin dosage amounts would get adjusted to get him back in range). So I built this app, so he could have a visual way 
-                          where he could enter and view all of his INR results in one place. I also added a place where he could keep track of all of his medications and their dosages as well a place to keep track of his doctor 
-                          appointments. I also have future plans to add a section for symptoms where he could jot down what he is experiencing as well as add images if his issue is visible.</p>
+                          I built this app for my husband. Long story short, several years ago he ended up needing to have heart surgery in order to replace his bad aortic valve with a mechanical one. 
+                          Because of this mechanical valve, he needs to take Coumadin for the rest of his life in order to prevent having strokes. So on a regular basis, he gets his "INR" levels checked to make sure 
+                          he is within range (if he is not in range, then a stroke is a possibility and so his Coumadin dosage amounts would need to be adjusted to get him back in range). So I built this app, so that he could have a visual way 
+                          where he could enter and view all of his INR results in one place. To stay organized, I added a place where he could keep track of all of his medications and their dosages as well a place to keep track of his doctor 
+                          appointments.</p>
                         <p className="card-text"><span className="mr-2 font-weight-bold">Built with: </span> Node.js, Express.js, Passport for user authentication, Sequelize as the ORM, Jasmine for TDD testing, 
                           bcrypt for hashed passwords, and MySQL for the database. I also plan on adding Cloudinary to store images to keep track of physical symptom changes.</p>
                         <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-inr.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
