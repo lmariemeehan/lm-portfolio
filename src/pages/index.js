@@ -149,7 +149,7 @@ export default class IndexPage extends React.Component {
                         alt="music pattern" />
                     </div>
                     <div className="col-md-8">
-                      <div className="card-body bg-light">
+                      <div className="card-body bg-light h-100">
                         <h3 className="card-title my-3"> Resonate </h3>
                         <p className="card-text text-muted text-uppercase"> React.js Music player</p>
                         <p className="mb-2">
@@ -178,7 +178,7 @@ export default class IndexPage extends React.Component {
                         alt="chat pattern" />
                     </div>
                     <div className="col-md-8">
-                      <div className="card-body bg-light">
+                      <div className="card-body bg-light h-100">
                         <h3 className="card-title my-3"> Hello </h3>
                         <p className="card-text text-muted text-uppercase"> React.js Chat app </p>
                         <p className="mb-2"><span className="mr-2 font-weight-bold">About: </span> 
@@ -226,7 +226,7 @@ export default class IndexPage extends React.Component {
                         alt="wikipedia pattern" />
                     </div>
                     <div className="col-md-8">
-                      <div className="card-body bg-light">
+                      <div className="card-body bg-light h-100">
                         <h3 className="card-title my-3"> InQuisitive </h3>
                         <p className="card-text text-muted text-uppercase"> Node.js Wikipedia app </p>
                         <p className="card-text"><span className="mr-2 font-weight-bold">About: </span> 
@@ -248,7 +248,7 @@ export default class IndexPage extends React.Component {
                     <div className="col-md-4">
                       <img 
                         className="card-img-fluid h-100" 
-                        src="https://res.cloudinary.com/laurameehan/image/upload/v1585117253/pattern_2_aejfeg.png" 
+                        src="https://res.cloudinary.com/laurameehan/image/upload/v1588053902/pattern_6_f5b5tv.png" 
                         alt="medical pattern" />
                     </div>
                     <div className="col-md-8">
