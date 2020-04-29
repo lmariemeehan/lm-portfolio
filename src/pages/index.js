@@ -209,7 +209,7 @@ export default class IndexPage extends React.Component {
                         <p className="mb-2"><span className="mr-2 font-weight-bold">About: </span> 
                           This was just built for fun and to help solidfy my knowlege of React. I added an api for the images that you see and set it up so that they cycle through at random. 
                           Just a little, simple, quick app but loads of fun!</p>
-                        <p className="card-text"><span className="mr-2 font-weight-bold"> Built with: </span> React, Git for version-control, and CSS for style.</p>
+                        <p className="card-text"><span className="mr-2 font-weight-bold"> Built with: </span> React, Git for version-control, APi for images, and CSS for style.</p>
                         <a className="btn btn-primary card-link my-2" href="https://lauras-memegenerator.netlify.app/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                         <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/meme-generator" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                       </div>
