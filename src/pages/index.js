@@ -209,7 +209,7 @@ export default class IndexPage extends React.Component {
                         <p className="mb-2"><span className="mr-2 font-weight-bold">About: </span> 
                           This was just built for fun and to help solidfy my knowlege of React. I added an api for the images that you see and set it up so that they cycle through at random. 
                           Just a little, simple, quick app but loads of fun!</p>
-                        <p className="card-text"><span className="mr-2 font-weight-bold"> Built with: </span> React, Git for version-control, APi for images, and CSS for style.</p>
+                        <p className="card-text"><span className="mr-2 font-weight-bold"> Built with: </span> React, Git for version-control, API for images, and CSS for style.</p>
                         <a className="btn btn-primary card-link my-2" href="https://lauras-memegenerator.netlify.app/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                         <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/meme-generator" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                       </div>
@@ -256,11 +256,10 @@ export default class IndexPage extends React.Component {
                         <h3 className="card-title mb-4"> INRecord </h3>
                         <p className="card-text text-muted text-uppercase">Node.js INR & Medication tracking app</p>
                         <p className="card-text"><span className="mr-2 font-weight-bold">About: </span>
-                          I built this app for my husband. Long story short, several years ago he ended up needing to have heart surgery in order to replace his bad aortic valve with a mechanical one. 
-                          Because of this mechanical valve, he needs to take Coumadin for the rest of his life in order to prevent having strokes. So on a regular basis, he gets his "INR" levels checked to make sure 
-                          he is within range (if he is not in range, then a stroke is a possibility and so his Coumadin dosage amounts would need to be adjusted to get him back in range). So I built this app, so that he could have a visual way 
-                          where he could enter and view all of his INR results in one place. To stay organized, I added a place where he could keep track of all of his medications and their dosages as well a place to keep track of his doctor 
-                          appointments.</p>
+                          I built this app for my husband. Long story short, my husband had a heart surgery several years ago in order to replace his malfunctioning aortic valve with a mechanical one. Because of this mechanical valve, he has to take 
+                          Coumadin for the rest of his life in order to prevent having strokes. Now on a regular basis, he gets his "INR" levels checked to make sure he is within a specific range (if he is not in range, then a stroke is a possibility 
+                          which means his Coumadin dosage gets adjusted accordingly to get him back in range). I built this app so that he could have a visual tool where he could enter and view all of his INR results in one place. To stay organized, 
+                          I added a place where he could also keep track of all of his medications and their dosages as well a place to keep track of his doctor appointments.</p>
                         <p className="card-text"><span className="mr-2 font-weight-bold">Built with: </span> Node.js, Express.js, Passport for user authentication, Sequelize as the ORM, Jasmine for TDD testing, 
                           bcrypt for hashed passwords, and MySQL for the database. I also plan on adding Cloudinary to store images to keep track of physical symptom changes.</p>
                         <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-inr.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
