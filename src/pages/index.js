@@ -135,21 +135,18 @@ export default class IndexPage extends React.Component {
           </div>
         </section>
 
-        <section className="page-section bg-dark " id="portfolio">
+        <section className="page-section bg-dark" id="portfolio">
           <h2 className="text-center text-white mt-0"> Portfolio </h2>
             <hr className="divider light my-4"/>
-              <div className="container-fluid">
-
-                <div className="card m-4 border-0 shadow"> 
-                  <div className="row no-gutters">
-                    <div className="col-md-4">
+              <div className="container">
+                <div className="row">
+                  <div className="col-lg-4">
+                      <div className="card bg-light text-center border-0 shadow-lg mb-4"> 
                       <img 
-                        className="card-img-fluid h-100"
+                        className="card-img-top"
                         src="https://res.cloudinary.com/laurameehan/image/upload/v1585115417/pattern_tlysrn.png" 
                         alt="music pattern" />
-                    </div>
-                    <div className="col-md-8">
-                      <div className="card-body bg-light h-100">
+                      <div className="card-body h-100">
                         <h3 className="card-title my-3"> Resonate </h3>
                         <p className="card-text text-muted text-uppercase"> React.js Music player</p>
                         <p className="mb-2">
@@ -159,51 +156,40 @@ export default class IndexPage extends React.Component {
                           It has the ability to play, pause, skip forward, skip backwards, and raise/lower volume.
                         </p>
                         <p className="card-text"><span className="mr-2 font-weight-bold"> Built with: </span> 
-                          React, React Developer Tools Chrome extension for debugging, Babel for enabling JSX syntax support, 
-                          React Router for client-side page transitions, Bootstrap for layout and style, and Git for version-control.
+                          React, Babel, React Router, and Bootstrap
                         </p>
                         <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-bloc-jams-react.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                         <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/Resonate" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                       </div>
                     </div>
                   </div>
-                </div>
-
-                <div className="card m-4 border-0 shadow">
-                  <div className="row no-gutters">
-                    <div className="col-md-4">
+                  <div className="col-lg-4">
+                    <div className="card bg-light text-center border-0 shadow-lg mb-4">
                       <img 
-                        className="card-img-fluid h-100" 
+                        className="card-img-top" 
                         src="https://res.cloudinary.com/laurameehan/image/upload/v1588021203/pattern_5_rwm2vu.png" 
                         alt="chat pattern" />
-                    </div>
-                    <div className="col-md-8">
-                      <div className="card-body bg-light h-100">
+                      <div className="card-body">
                         <h3 className="card-title my-3"> Hello </h3>
                         <p className="card-text text-muted text-uppercase"> React.js Chat app </p>
                         <p className="mb-2"><span className="mr-2 font-weight-bold">About: </span> 
                           This was the second SPA web app that I built while undergoing my apprenticeship.
                           Definitely more complicated than the last React project. This is a chat app that required adding Firebase in order to utilize both the user 
                           authentication feature as well as it's NoSQL database to store user messages. Upon logging in, you are able to add & delete rooms as well as add & delete messages.</p>
-                        <p className="card-text"><span className="mr-2 font-weight-bold"> Built with: </span> React, React Tools Chrome extension for debugging, Babel, 
-                          React Router for client-side page transitions, Bootstrap for layout and style, Git for version-control, and Firebase for the NoSQL database and user authentication.</p>
+                        <p className="card-text"><span className="mr-2 font-weight-bold"> Built with: </span> React, Babel, 
+                          React Router, Bootstrap, and Firebase</p>
                         <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-bloc-chat-react.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                         <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/Hello" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                       </div>
                     </div>
                   </div>
-                </div>
-
-                <div className="card m-4 border-0 shadow">
-                  <div className="row no-gutters">
-                    <div className="col-md-4">
+                  <div className="col-lg-4">
+                    <div className="card bg-light text-center border-0 shadow-lg mb-4">
                       <img 
-                        className="card-img-fluid h-100" 
+                        className="card-img-top" 
                         src="https://res.cloudinary.com/laurameehan/image/upload/v1588020376/pattern_4_asdvwk.png" 
                         alt="chat pattern" />
-                    </div>
-                    <div className="col-md-8">
-                      <div className="card-body bg-light h-100">
+                      <div className="card-body">
                         <h3 className="card-title my-3"> Memes </h3>
                         <p className="card-text text-muted text-uppercase"> React.js Meme Generator app </p>
                         <p className="mb-2"><span className="mr-2 font-weight-bold">About: </span> 
@@ -217,15 +203,13 @@ export default class IndexPage extends React.Component {
                   </div>
                 </div>
 
-                <div className="card m-4 border-0 shadow">
-                  <div className="row no-gutters">
-                    <div className="col-md-4">
+                <div className="row">
+                  <div className="col-lg-4">
+                    <div className="card m-4 border-0 shadow">
                       <img 
                         className="card-img-fluid h-100" 
                         src="https://res.cloudinary.com/laurameehan/image/upload/v1585117001/pattern_3_forpgk.png" 
                         alt="wikipedia pattern" />
-                    </div>
-                    <div className="col-md-8">
                       <div className="card-body bg-light h-100">
                         <h3 className="card-title my-3"> InQuisitive </h3>
                         <p className="card-text text-muted text-uppercase"> Node.js Wikipedia app </p>
@@ -243,6 +227,9 @@ export default class IndexPage extends React.Component {
                   </div>
                 </div>
 
+
+
+
                 <div className="card m-4 border-0 shadow">
                   <div className="row no-gutters">
                     <div className="col-md-4">
@@ -252,7 +239,7 @@ export default class IndexPage extends React.Component {
                         alt="medical pattern" />
                     </div>
                     <div className="col-md-8">
-                      <div className="card-body bg-light p-4">
+                      <div className="card-body bg-light h-100">
                         <h3 className="card-title mb-4"> INRecord </h3>
                         <p className="card-text text-muted text-uppercase">Node.js INR & Medication tracking app</p>
                         <p className="card-text"><span className="mr-2 font-weight-bold">About: </span>
