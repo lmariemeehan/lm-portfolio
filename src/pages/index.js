@@ -138,10 +138,28 @@ export default class IndexPage extends React.Component {
         <section className="page-section bg-dark" id="portfolio">
           <h2 className="text-center text-white mt-0"> Portfolio </h2>
             <hr className="divider light my-4"/>
-              <div className="container">
-                <div className="row">
-                  <div className="col-lg-4">
-                      <div className="card bg-light text-center border-0 shadow-lg mb-4"> 
+              <div className="container-fluid">
+                <div className="row no-gutters">
+                  <div className="col">
+                    <div className="card bg-light border-0 shadow-lg mb-4">
+                      <img 
+                        className="card-img-top" 
+                        src="https://res.cloudinary.com/laurameehan/image/upload/v1588020376/pattern_4_asdvwk.png" 
+                        alt="chat pattern" />
+                      <div className="card-body">
+                        <h3 className="card-title my-3"> Memes </h3>
+                        <p className="card-text text-muted text-uppercase"> React.js Meme Generator app </p>
+                        <p className="mb-2"><span className="mr-2 font-weight-bold">About: </span> 
+                          This was just built for fun and to help solidfy my knowlege of React. I added an api for the images that you see and set it up so that they cycle through at random. 
+                          Just a little, simple, quick app but loads of fun!</p>
+                        <p className="card-text"><span className="mr-2 font-weight-bold"> Built with: </span> React, API for images, and CSS for style.</p>
+                        <a className="btn btn-primary card-link my-2" href="https://lauras-memegenerator.netlify.app/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
+                        <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/meme-generator" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col">
+                      <div className="card bg-light border-0 shadow-lg mb-4"> 
                       <img 
                         className="card-img-top"
                         src="https://res.cloudinary.com/laurameehan/image/upload/v1585115417/pattern_tlysrn.png" 
@@ -163,8 +181,8 @@ export default class IndexPage extends React.Component {
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-4">
-                    <div className="card bg-light text-center border-0 shadow-lg mb-4">
+                  <div className="col">
+                    <div className="card bg-light border-0 shadow-lg mb-4">
                       <img 
                         className="card-img-top" 
                         src="https://res.cloudinary.com/laurameehan/image/upload/v1588021203/pattern_5_rwm2vu.png" 
@@ -183,34 +201,13 @@ export default class IndexPage extends React.Component {
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-4">
-                    <div className="card bg-light text-center border-0 shadow-lg mb-4">
+                  <div className="col">
+                    <div className="card bg-light border-0 shadow-lg">
                       <img 
                         className="card-img-top" 
-                        src="https://res.cloudinary.com/laurameehan/image/upload/v1588020376/pattern_4_asdvwk.png" 
-                        alt="chat pattern" />
-                      <div className="card-body">
-                        <h3 className="card-title my-3"> Memes </h3>
-                        <p className="card-text text-muted text-uppercase"> React.js Meme Generator app </p>
-                        <p className="mb-2"><span className="mr-2 font-weight-bold">About: </span> 
-                          This was just built for fun and to help solidfy my knowlege of React. I added an api for the images that you see and set it up so that they cycle through at random. 
-                          Just a little, simple, quick app but loads of fun!</p>
-                        <p className="card-text"><span className="mr-2 font-weight-bold"> Built with: </span> React, Git for version-control, API for images, and CSS for style.</p>
-                        <a className="btn btn-primary card-link my-2" href="https://lauras-memegenerator.netlify.app/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
-                        <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/meme-generator" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="row">
-                  <div className="col-lg-4">
-                    <div className="card m-4 border-0 shadow">
-                      <img 
-                        className="card-img-fluid h-100" 
                         src="https://res.cloudinary.com/laurameehan/image/upload/v1585117001/pattern_3_forpgk.png" 
                         alt="wikipedia pattern" />
-                      <div className="card-body bg-light h-100">
+                      <div className="card-body bg-light">
                         <h3 className="card-title my-3"> InQuisitive </h3>
                         <p className="card-text text-muted text-uppercase"> Node.js Wikipedia app </p>
                         <p className="card-text"><span className="mr-2 font-weight-bold">About: </span> 
@@ -218,42 +215,37 @@ export default class IndexPage extends React.Component {
                           public level or on a private level depending on their status. Users can upgrade to premium level thereby allowing him/her to make private wikis to share with
                           only people of their choice. This is done by making a payment through Stripe (which is an API) that I added.</p>
                         <p className="card-text"><span className="mr-2 font-weight-bold">Built with: </span> 
-                          Node.js, Express.js, Morgan for debugging, Stripe API to charge users to upgrade, Sendgrid API for email responses, Passport for user authentication, 
-                          Sequelize as the ORM, Jasmine for TDD testing, Markdown, bcrypt for hashed passwords, and PostgreSQL for the database.</p>
+                          Node.js, Express.js, Morgan, Stripe API, Sendgrid API, Passport, Sequelize, Jasmine, Markdown, bcrypt, and PostgreSQL.</p>
                         <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-blocipedia.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                         <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/InQuisitive" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                       </div>
                     </div>
                   </div>
-                </div>
-
-
-
-
-                <div className="card m-4 border-0 shadow">
-                  <div className="row no-gutters">
-                    <div className="col-md-4">
+                  <div className="col">
+                    <div className="card bg-light border-0 shadow-lg">
                       <img 
-                        className="card-img-fluid h-100" 
+                        className="card-img-top" 
                         src="https://res.cloudinary.com/laurameehan/image/upload/v1588053902/pattern_6_f5b5tv.png" 
                         alt="medical pattern" />
-                    </div>
-                    <div className="col-md-8">
-                      <div className="card-body bg-light h-100">
-                        <h3 className="card-title mb-4"> INRecord </h3>
+                      <div className="card-body bg-light">
+                        <h3 className="card-title my-3"> INRecord </h3>
                         <p className="card-text text-muted text-uppercase">Node.js INR & Medication tracking app</p>
                         <p className="card-text"><span className="mr-2 font-weight-bold">About: </span>
-                          I built this app for my husband. Long story short, my husband had a heart surgery several years ago in order to replace his malfunctioning aortic valve with a mechanical one. Because of this mechanical valve, he has to take 
-                          Coumadin for the rest of his life in order to prevent having strokes. Now on a regular basis, he gets his "INR" levels checked to make sure he is within a specific range (if he is not in range, then a stroke is a possibility 
-                          which means his Coumadin dosage gets adjusted accordingly to get him back in range). I built this app so that he could have a visual tool where he could enter and view all of his INR results in one place. To stay organized, 
-                          I added a place where he could also keep track of all of his medications and their dosages as well a place to keep track of his doctor appointments.</p>
-                        <p className="card-text"><span className="mr-2 font-weight-bold">Built with: </span> Node.js, Express.js, Passport for user authentication, Sequelize as the ORM, Jasmine for TDD testing, 
-                          bcrypt for hashed passwords, and MySQL for the database. I also plan on adding Cloudinary to store images to keep track of physical symptom changes.</p>
+                          I built this app for my husband. Long story short, my husband had a heart surgery several years ago in order to replace his malfunctioning aortic valve with a mechanical one. Now on a regular basis, 
+                          he gets his "INR" levels checked to make sure he is within a specific range (if he is not in range, then a stroke is a possibility which means his medication dosages gets adjusted accordingly to get him back in range). 
+                          I built this app so that he could have a visual tool where he could enter and view all of his INR results in one place. To stay organized, I added a place where he could also keep track of all of his medications and 
+                          their dosages as well a place to keep track of his doctor appointments.</p>
+                        <p className="card-text"><span className="mr-2 font-weight-bold">Built with: </span> Node.js, Express.js, Passport, Sequelize, Jasmine, 
+                          bcrypt, and MySQL.</p>
                         <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-inr.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                         <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/inr" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                       </div>
                     </div>
                   </div>
+                </div>
+
+                <div className="row no-gutters">
+
                 </div>
               </div>   
     
