@@ -44,8 +44,8 @@ export default class IndexPage extends React.Component {
         <Skills />
         <Projects />
         
-          <div className="container-fluid mt-5 px-0">
-            <div className="row no-gutters pt-5 mt-5">
+          <div className="container-fluid px-0 bg-dark" id="portfolio">
+            <div className="row no-gutters">
               <div className="col-lg-6 col-sm-6">
                 <a className="portfolio-box" href="img/portfolio/fullsize/1-resonate.jpg" onClick={this.handlePortfolioClick.bind(this, 0)}>
                   <Img fluid={this.props.data.images.edges[0].node.childImageSharp.fluid}/>
