@@ -43,6 +43,7 @@ export default class IndexPage extends React.Component {
         <About />
         <Skills />
         <Projects />
+        
           <div className="container-fluid mt-5 px-0">
             <div className="row no-gutters pt-5 mt-5">
               <div className="col-lg-6 col-sm-6">

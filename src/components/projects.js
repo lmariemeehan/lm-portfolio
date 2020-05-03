@@ -1,5 +1,5 @@
 import React from "react"
-
+import AboutMeme from "../components/portfolio/about-meme"
 class Projects extends React.Component {
     constructor() {
         super()
@@ -18,6 +18,8 @@ class Projects extends React.Component {
   }
 
     render() {
+        let displayMemeAbout = this.state.viewPortfolioCard ? <AboutMeme /> : null
+
         return (
             <section className="page-section bg-dark" id="projects">
                 <h2 className="text-center text-white mt-0"> Portfolio </h2>
@@ -33,6 +35,9 @@ class Projects extends React.Component {
                             <div className="card-body">
                             <h3 className="card-title my-3"> Memes </h3>
                             <p className="card-text text-muted text-uppercase"> React.js Meme Generator app </p>
+
+                            {displayMemeAbout}
+
                             <p className="card-text"><span className="mr-2 font-weight-bold"> Built with: </span> React, API for images, and CSS for style.</p>
                             <a className="btn btn-primary card-link my-2" href="https://lauras-memegenerator.netlify.app/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                             <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/meme-generator" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
