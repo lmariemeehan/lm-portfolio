@@ -11,7 +11,6 @@ import expressIcon from "@iconify/icons-logos/express"
 import mysqlIcon from "@iconify/icons-logos/mysql"
 import consoleSqlOutlined from "@iconify/icons-ant-design/console-sql-outlined"
 import responsiveIcon from "@iconify/icons-mdi/responsive"
-import AboutMeme from "../components/portfolio/about-meme"
 
 function Skills() {
     return (

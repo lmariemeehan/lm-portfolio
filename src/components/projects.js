@@ -1,24 +1,38 @@
 import React from "react"
-import AboutMeme from "../components/portfolio/about-meme"
+import MemeAbout from "./project-sections/meme-about"
+import ResonateAbout from "./project-sections/resonate-about"
+
 class Projects extends React.Component {
     constructor() {
         super()
         this.state = {
-            viewPortfolioCard: false
+            viewMeme: false,
+            viewResonate: false
         }
-        this.handleClick = this.handleClick.bind(this)
+        this.handleMemeClick = this.handleMemeClick.bind(this)
+        this.handleResonateClick = this.handleResonateClick.bind(this)
     }
 
-  handleClick() {
-    this.setState(prevState => {
-      return {
-        viewPortfolioCard: !prevState.viewPortfolioCard
-      }
-    })
-  }
+
+    handleMemeClick() {
+        this.setState(prevState => {
+            return {
+                viewMeme: !prevState.viewMeme
+            }
+        })
+    }
+
+    handleResonateClick() {
+        this.setState(prevState => {
+            return {
+                viewResonate: !prevState.viewResonate
+            }
+        })
+    }
 
     render() {
-        let displayMemeAbout = this.state.viewPortfolioCard ? <AboutMeme /> : null
+        let displayMemeAbout = this.state.viewMeme ? <MemeAbout /> : null
+        let displayResonateAbout = this.state.viewResonate ? <ResonateAbout /> : null
 
         return (
             <section className="page-section bg-dark" id="projects">
@@ -27,49 +41,39 @@ class Projects extends React.Component {
                 <div className="container-fluid">
                     <div className="row no-gutters">
                         <div className="col">
-                        <div className="card bg-light border-0 shadow-lg mb-4">
-                            <img 
-                            className="card-img-top" 
-                            src="https://res.cloudinary.com/laurameehan/image/upload/v1588020376/pattern_4_asdvwk.png" 
-                            alt="chat pattern" />
-                            <div className="card-body">
-                            <h3 className="card-title my-3"> Memes </h3>
-                            <p className="card-text text-muted text-uppercase"> React.js Meme Generator app </p>
-
-                            {displayMemeAbout}
-
-                            <p className="card-text"><span className="mr-2 font-weight-bold"> Built with: </span> React, API for images, and CSS for style.</p>
-                            <a className="btn btn-primary card-link my-2" href="https://lauras-memegenerator.netlify.app/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
-                            <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/meme-generator" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
-                            <ul className="nav nav-tabs">
-                                <li className="nav-item" onClick={this.handleClick}>Links</li>
-                                <li className="nav-item" onClick={this.handleClick}>About</li>
-                                <li className="nav-item" onClick={this.handleClick}>Tech</li>
-                            </ul>
+                            <div className="card bg-light border-0 shadow-lg mb-4">
+                                <img 
+                                className="card-img-top" 
+                                src="https://res.cloudinary.com/laurameehan/image/upload/v1588020376/pattern_4_asdvwk.png" 
+                                alt="chat pattern" />
+                                <div className="card-body text-center">
+                                    <h3 className="card-title my-3"> Memes </h3>
+                                    <p className="card-text text-muted text-uppercase"> React.js Meme Generator app </p>
+                                    <a className="btn btn-primary card-link my-2" href="https://lauras-memegenerator.netlify.app/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
+                                    <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/meme-generator" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
+                                </div>
+                                <div className="card-footer">
+                                    <h5 className="text-center" onClick={this.handleMemeClick}>Learn More <i class="fas fa-caret-down"></i></h5>
+                                    {displayMemeAbout}
+                                </div>
                             </div>
-                        </div>
                         </div>
                         <div className="col">
                             <div className="card bg-light border-0 shadow-lg mb-4"> 
-                            <img 
-                            className="card-img-top"
-                            src="https://res.cloudinary.com/laurameehan/image/upload/v1585115417/pattern_tlysrn.png" 
-                            alt="music pattern" />
-                            <div className="card-body h-100">
-                            <h3 className="card-title my-3"> Resonate </h3>
-                            <p className="card-text text-muted text-uppercase"> React.js Music player</p>
-                            <p className="mb-2">
-                                <span className="mr-2 font-weight-bold"> About: </span> 
-                                Resonate was my first main SPA web app that I built while undergoing my apprenticeship. It is similar to Spotify. In order to navigate 
-                                between the landing page, the library page, then finally onto a specific album I implemented the React Router to help with these page transitions. 
-                                It has the ability to play, pause, skip forward, skip backwards, and raise/lower volume.
-                            </p>
-                            <p className="card-text"><span className="mr-2 font-weight-bold"> Built with: </span> 
-                                React, Babel, React Router, and Bootstrap
-                            </p>
-                            <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-bloc-jams-react.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
-                            <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/Resonate" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
+                                <img 
+                                className="card-img-top"
+                                src="https://res.cloudinary.com/laurameehan/image/upload/v1585115417/pattern_tlysrn.png" 
+                                alt="music pattern" />
+                            <div className="card-body text-center">
+                                <h3 className="card-title my-3"> Resonate </h3>
+                                <p className="card-text text-muted text-uppercase"> React.js Music player</p>
+                                <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-bloc-jams-react.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
+                                <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/Resonate" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                             </div>
+                            <div className="card-footer">
+                                    <h5 className="text-center" onClick={this.handleResonateClick}>Learn More <i class="fas fa-caret-down"></i></h5>
+                                    {displayResonateAbout}
+                                </div>
                         </div>
                         </div>
                         <div className="col">
