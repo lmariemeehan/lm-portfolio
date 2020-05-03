@@ -2,6 +2,7 @@ import React from "react"
 import MemeAbout from "./project-sections/meme-about"
 import ResonateAbout from "./project-sections/resonate-about"
 import HelloAbout from "./project-sections/hello-about"
+import InQuisitiveAbout from "./project-sections/inquisitive-about"
 
 class Projects extends React.Component {
     constructor() {
@@ -9,11 +10,13 @@ class Projects extends React.Component {
         this.state = {
             viewMeme: false,
             viewResonate: false,
-            viewHello: false
+            viewHello: false,
+            viewInquisitive: false
         }
         this.handleMemeClick = this.handleMemeClick.bind(this)
         this.handleResonateClick = this.handleResonateClick.bind(this)
         this.handleHelloClick = this.handleHelloClick.bind(this)
+        this.handleInquisitiveClick = this.handleInquisitiveClick.bind(this)
     }
 
     handleMemeClick() {
@@ -40,13 +43,22 @@ class Projects extends React.Component {
         })
     }
 
+    handleInquisitiveClick() {
+        this.setState(prevState => {
+            return {
+                viewInquisitive: !prevState.viewInquisitive
+            }
+        })
+    }
+
     render() {
         let displayMemeAbout = this.state.viewMeme ? <MemeAbout /> : null
         let displayResonateAbout = this.state.viewResonate ? <ResonateAbout /> : null
         let displayHelloAbout = this.state.viewHello ? <HelloAbout /> : null
+        let displayInquisitiveAbout = this.state.viewInquisitive ? <InQuisitiveAbout /> : null
 
         return (
-            <section className="page-section bg-dark" id="projects">
+            <section className="page-section bg-dark" id="portfolio">
                 <h2 className="text-center text-white mt-0"> Portfolio </h2>
                 <hr className="divider light my-4"/>
                 <div className="container-fluid">
@@ -54,12 +66,12 @@ class Projects extends React.Component {
                         <div className="col">
                             <div className="card bg-light border-0 shadow-lg mb-4">
                                 <img 
-                                className="card-img-top" 
-                                src="https://res.cloudinary.com/laurameehan/image/upload/v1588020376/pattern_4_asdvwk.png" 
-                                alt="chat pattern" />
+                                    className="card-img-top" 
+                                    src="https://res.cloudinary.com/laurameehan/image/upload/v1588020376/pattern_4_asdvwk.png" 
+                                    alt="chat pattern" />
                                 <div className="card-body text-center">
                                     <h3 className="card-title my-3"> Memes </h3>
-                                    <p className="card-text text-muted text-uppercase"> React.js Meme Generator app </p>
+                                    <p className="card-text text-muted text-uppercase"> React Meme Generator app </p>
                                     <a className="btn btn-primary card-link my-2" href="https://lauras-memegenerator.netlify.app/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                                     <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/meme-generator" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                                 </div>
@@ -72,12 +84,12 @@ class Projects extends React.Component {
                         <div className="col">
                             <div className="card bg-light border-0 shadow-lg mb-4"> 
                                 <img 
-                                className="card-img-top"
-                                src="https://res.cloudinary.com/laurameehan/image/upload/v1585115417/pattern_tlysrn.png" 
-                                alt="music pattern" />
+                                    className="card-img-top"
+                                    src="https://res.cloudinary.com/laurameehan/image/upload/v1585115417/pattern_tlysrn.png" 
+                                    alt="music pattern" />
                             <div className="card-body text-center">
                                 <h3 className="card-title my-3"> Resonate </h3>
-                                <p className="card-text text-muted text-uppercase"> React.js Music player</p>
+                                <p className="card-text text-muted text-uppercase"> React Music player</p>
                                 <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-bloc-jams-react.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                                 <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/Resonate" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                             </div>
@@ -95,12 +107,12 @@ class Projects extends React.Component {
                                 alt="chat pattern" />
                             <div className="card-body text-center">
                                 <h3 className="card-title my-3"> Hello </h3>
-                                <p className="card-text text-muted text-uppercase"> React.js Chat app </p>
+                                <p className="card-text text-muted text-uppercase"> React Chat app </p>
                                 <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-bloc-chat-react.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                                 <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/Hello" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                             </div>
                             <div className="card-footer">
-                            <h5 className="text-center" onClick={this.handleHelloClick}>Learn More <i class="fas fa-caret-down"></i></h5>
+                                <h5 className="text-center" onClick={this.handleHelloClick}>Learn More <i class="fas fa-caret-down"></i></h5>
                                 {displayHelloAbout}
                             </div>
                         </div>
@@ -108,20 +120,18 @@ class Projects extends React.Component {
                         <div className="col">
                         <div className="card bg-light border-0 shadow-lg">
                             <img 
-                            className="card-img-top" 
-                            src="https://res.cloudinary.com/laurameehan/image/upload/v1585117001/pattern_3_forpgk.png" 
-                            alt="wikipedia pattern" />
-                            <div className="card-body bg-light">
-                            <h3 className="card-title my-3"> InQuisitive </h3>
-                            <p className="card-text text-muted text-uppercase"> Node.js Wikipedia app </p>
-                            <p className="card-text"><span className="mr-2 font-weight-bold">About: </span> 
-                                This is a wikipedia app with the ability to create, share, and collaborate markdown wikis. Users are able to create wikis on either a 
-                                public level or on a private level depending on their status. Users can upgrade to premium level thereby allowing him/her to make private wikis to share with
-                                only people of their choice. This is done by making a payment through Stripe (which is an API) that I added.</p>
-                            <p className="card-text"><span className="mr-2 font-weight-bold">Built with: </span> 
-                                Node.js, Express.js, Morgan, Stripe API, Sendgrid API, Passport, Sequelize, Jasmine, Markdown, bcrypt, and PostgreSQL.</p>
-                            <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-blocipedia.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
-                            <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/InQuisitive" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
+                                className="card-img-top" 
+                                src="https://res.cloudinary.com/laurameehan/image/upload/v1585117001/pattern_3_forpgk.png" 
+                                alt="wikipedia pattern" />
+                            <div className="card-body text-center">
+                                <h3 className="card-title my-3"> InQuisitive </h3>
+                                <p className="card-text text-muted text-uppercase"> Node.js Wikipedia app </p>
+                                <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-blocipedia.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
+                                <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/InQuisitive" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
+                            </div>
+                            <div className="card-footer">
+                                <h5 className="text-center" onClick={this.handleInquisitiveClick}>Learn More <i class="fas fa-caret-down"></i></h5>
+                                {displayInquisitiveAbout}
                             </div>
                         </div>
                         </div>
