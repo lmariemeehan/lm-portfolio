@@ -153,7 +153,7 @@ class Projects extends React.Component {
                                     className="card-img-top" 
                                     src="https://res.cloudinary.com/laurameehan/image/upload/v1588053902/pattern_6_f5b5tv.png" 
                                     alt="medical pattern" />
-                                <div className="card-body bg-light">
+                                <div className="card-body text-center">
                                     <h3 className="card-title my-3"> INRecord </h3>
                                     <p className="card-text text-muted text-uppercase">Node.js INR tracking app</p>
                                     <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-inr.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
