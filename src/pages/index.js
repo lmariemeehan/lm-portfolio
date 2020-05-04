@@ -45,10 +45,23 @@ export default class IndexPage extends React.Component {
         <Projects />
         <section className="page-section bg-dark" id="portfolio">
           <div className="container-fluid px-0 bg-dark">
-            <div className="row no-gutters">
-              <div className="col-lg-6 col-sm-6">
-                <a className="portfolio-box" href="img/portfolio/fullsize/1-resonate.jpg" onClick={this.handlePortfolioClick.bind(this, 0)}>
+            <div className="row no-gutters d-flex justify-content-center">
+              <div className="col-lg-4 col-sm-6">
+                <a className="portfolio-box" href="img/portfolio/fullsize/1-meme.jpg" onClick={this.handlePortfolioClick.bind(this, 0)}>
                   <Img fluid={this.props.data.images.edges[0].node.childImageSharp.fluid}/>
+                  <div className="portfolio-box-caption">
+                    <div className="project-category text-white-50">
+                      React.js Meme Generator
+                    </div>
+                    <div className="project-name">
+                      Memes
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="col-lg-4 col-sm-6">
+                <a className="portfolio-box" href="img/portfolio/fullsize/2-resonate.jpg" onClick={this.handlePortfolioClick.bind(this, 1)}>
+                  <Img fluid={this.props.data.images.edges[1].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
                       React.js Music App
@@ -59,9 +72,9 @@ export default class IndexPage extends React.Component {
                   </div>
                 </a>
               </div>
-              <div className="col-lg-6 col-sm-6">
-                <a className="portfolio-box" href="img/portfolio/fullsize/2-hello.jpg" onClick={this.handlePortfolioClick.bind(this, 1)}>
-                  <Img fluid={this.props.data.images.edges[1].node.childImageSharp.fluid}/>
+              <div className="col-lg-4 col-sm-6">
+                <a className="portfolio-box" href="img/portfolio/fullsize/3-hello.jpg" onClick={this.handlePortfolioClick.bind(this, 2)}>
+                  <Img fluid={this.props.data.images.edges[2].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
                       React.js Chat App
@@ -72,9 +85,9 @@ export default class IndexPage extends React.Component {
                   </div>
                 </a>
               </div>
-              <div className="col-lg-6 col-sm-6">
-                  <a className="portfolio-box" href="img/portfolio/fullsize/3-inquisitive.jpg" onClick={this.handlePortfolioClick.bind(this, 2)}>
-                    <Img fluid={this.props.data.images.edges[2].node.childImageSharp.fluid}/>
+              <div className="col-lg-4 col-sm-6">
+                  <a className="portfolio-box" href="img/portfolio/fullsize/4-inquisitive.jpg" onClick={this.handlePortfolioClick.bind(this, 3)}>
+                    <Img fluid={this.props.data.images.edges[3].node.childImageSharp.fluid}/>
                     <div className="portfolio-box-caption">
                       <div className="project-category text-white-50">
                         Node.js Wikipedia App
@@ -85,9 +98,9 @@ export default class IndexPage extends React.Component {
                     </div>
                   </a>
                 </div>
-              <div className="col-lg-6 col-sm-6">
-                <a className="portfolio-box" href="img/portfolio/fullsize/4-inrecord.jpg" onClick={this.handlePortfolioClick.bind(this, 3)}>
-                  <Img fluid={this.props.data.images.edges[3].node.childImageSharp.fluid}/>
+              <div className="col-lg-4 col-sm-6">
+                <a className="portfolio-box" href="img/portfolio/fullsize/5-inrecord.jpg" onClick={this.handlePortfolioClick.bind(this, 4)}>
+                  <Img fluid={this.props.data.images.edges[4].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
                       Node.js INR app
