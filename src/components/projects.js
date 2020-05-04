@@ -88,7 +88,7 @@ class Projects extends React.Component {
                                     <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/meme-generator" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                                 </div>
                                 <div className="card-footer">
-                                    <h5 className="text-center" onClick={this.handleMemeClick}>Learn More <i class="fas fa-caret-down"></i></h5>
+                                    <h5 className="text-center" onClick={this.handleMemeClick} onKeyDown={this.handleMemeClick}>Learn More <i class="fas fa-caret-down"></i></h5>
                                     {displayMemeAbout}
                                 </div>
                             </div>
@@ -106,7 +106,7 @@ class Projects extends React.Component {
                                     <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/Resonate" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                                 </div>
                                 <div className="card-footer">
-                                    <h5 className="text-center" onClick={this.handleResonateClick}>Learn More <i class="fas fa-caret-down"></i></h5>
+                                    <h5 className="text-center" onClick={this.handleResonateClick} onKeyDown={this.handleResonateClick}>Learn More <i class="fas fa-caret-down"></i></h5>
                                     {displayResonateAbout}
                                 </div>
                             </div>
@@ -124,7 +124,7 @@ class Projects extends React.Component {
                                     <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/Hello" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                                 </div>
                                 <div className="card-footer">
-                                    <h5 className="text-center" onClick={this.handleHelloClick}>Learn More <i class="fas fa-caret-down"></i></h5>
+                                    <h5 className="text-center" onClick={this.handleHelloClick} onKeyDown={this.handleHelloClick}>Learn More <i class="fas fa-caret-down"></i></h5>
                                     {displayHelloAbout}
                                 </div>
                             </div>
@@ -142,7 +142,7 @@ class Projects extends React.Component {
                                     <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/InQuisitive" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                                 </div>
                                 <div className="card-footer">
-                                    <h5 className="text-center" onClick={this.handleInquisitiveClick}>Learn More <i class="fas fa-caret-down"></i></h5>
+                                    <h5 className="text-center" onClick={this.handleInquisitiveClick} onKeyDown={this.handleInquisitiveClick}>Learn More <i class="fas fa-caret-down"></i></h5>
                                     {displayInquisitiveAbout}
                                 </div>
                             </div>
@@ -160,7 +160,7 @@ class Projects extends React.Component {
                                     <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/inr" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                                 </div>  
                                 <div className="card-footer">
-                                    <h5 className="text-center" onClick={this.handleInrecordClick}>Learn More <i class="fas fa-caret-down"></i></h5>
+                                    <h5 className="text-center" onClick={this.handleInrecordClick} onKeyDown={this.handleInrecordClick}>Learn More <i class="fas fa-caret-down"></i></h5>
                                     {displayInrecordAbout}
                                 </div>
                             </div>
