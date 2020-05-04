@@ -87,8 +87,8 @@ class Projects extends React.Component {
                                     <a className="btn btn-primary card-link my-2" href="https://lauras-memegenerator.netlify.app/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                                     <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/meme-generator" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                                 </div>
-                                <div className="card-footer">
-                                    <h5 className="text-center" onClick={this.handleMemeClick} onKeyDown={this.handleMemeClick}>Learn More <i class="fas fa-caret-down"></i></h5>
+                                <div className="card-footer text-center">
+                                    <button className="btn btn-lg" onClick={this.handleMemeClick} onKeyDown={this.handleMemeClick}>Learn More <i class="fas fa-caret-down"></i></button>
                                     {displayMemeAbout}
                                 </div>
                             </div>
@@ -105,8 +105,8 @@ class Projects extends React.Component {
                                     <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-bloc-jams-react.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                                     <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/Resonate" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                                 </div>
-                                <div className="card-footer">
-                                    <h5 className="text-center" onClick={this.handleResonateClick} onKeyDown={this.handleResonateClick}>Learn More <i class="fas fa-caret-down"></i></h5>
+                                <div className="card-footer text-center">
+                                    <button className="btn btn-lg" onClick={this.handleResonateClick} onKeyDown={this.handleResonateClick}>Learn More <i class="fas fa-caret-down"></i></button>
                                     {displayResonateAbout}
                                 </div>
                             </div>
@@ -123,8 +123,8 @@ class Projects extends React.Component {
                                     <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-bloc-chat-react.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                                     <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/Hello" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                                 </div>
-                                <div className="card-footer">
-                                    <h5 className="text-center" onClick={this.handleHelloClick} onKeyDown={this.handleHelloClick}>Learn More <i class="fas fa-caret-down"></i></h5>
+                                <div className="card-footer text-center">
+                                    <button className="btn btn-lg" onClick={this.handleHelloClick} onKeyDown={this.handleHelloClick}>Learn More <i class="fas fa-caret-down"></i></button>
                                     {displayHelloAbout}
                                 </div>
                             </div>
@@ -141,14 +141,14 @@ class Projects extends React.Component {
                                     <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-blocipedia.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                                     <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/InQuisitive" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                                 </div>
-                                <div className="card-footer">
-                                    <h5 className="text-center" onClick={this.handleInquisitiveClick} onKeyDown={this.handleInquisitiveClick}>Learn More <i class="fas fa-caret-down"></i></h5>
+                                <div className="card-footer text-center">
+                                    <button className="btn btn-lg" onClick={this.handleInquisitiveClick} onKeyDown={this.handleInquisitiveClick}>Learn More <i class="fas fa-caret-down"></i></button>
                                     {displayInquisitiveAbout}
                                 </div>
                             </div>
                         </div>
                         <div className="col mx-2">
-                            <div className="card bg-light border-0 shadow-lg mb-4">
+                            <div className="card bg-light border-0 shadow-lg">
                                 <img 
                                     className="card-img-top" 
                                     src="https://res.cloudinary.com/laurameehan/image/upload/v1588053902/pattern_6_f5b5tv.png" 
@@ -159,8 +159,8 @@ class Projects extends React.Component {
                                     <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-inr.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                                     <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/inr" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                                 </div>  
-                                <div className="card-footer">
-                                    <h5 className="text-center" onClick={this.handleInrecordClick} onKeyDown={this.handleInrecordClick}>Learn More <i class="fas fa-caret-down"></i></h5>
+                                <div className="card-footer text-center">
+                                    <button className="btn btn-lg" onClick={this.handleInrecordClick} onKeyDown={this.handleInrecordClick}>Learn More <i class="fas fa-caret-down"></i></button>
                                     {displayInrecordAbout}
                                 </div>
                             </div>
