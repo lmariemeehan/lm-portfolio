@@ -43,8 +43,8 @@ export default class IndexPage extends React.Component {
         <About />
         <Skills />
         <Projects />
-        
-          <div className="container-fluid px-0 bg-dark" id="portfolio">
+        <section className="page-section bg-dark" id="portfolio">
+          <div className="container-fluid px-0 bg-dark">
             <div className="row no-gutters">
               <div className="col-lg-6 col-sm-6">
                 <a className="portfolio-box" href="img/portfolio/fullsize/1-resonate.jpg" onClick={this.handlePortfolioClick.bind(this, 0)}>
@@ -100,7 +100,7 @@ export default class IndexPage extends React.Component {
               </div>
             </div>
           </div>
-
+        </section>
         <Contact />
 
         <PortfolioModal show={this.state.modalShow} onHide={() => this.setModal(false, 0)}>

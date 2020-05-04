@@ -70,11 +70,11 @@ class Projects extends React.Component {
         let displayInrecordAbout = this.state.viewInrecord ? <InrecordAbout /> : null
 
         return (
-            <section className="page-section bg-dark" id="portfolio">
-                <h2 className="text-center text-white mt-0"> Portfolio </h2>
+            <section className="bg-dark" id="projects">
+                <h2 className="text-center text-white"> Portfolio </h2>
                 <hr className="divider light my-4"/>
                 <div className="container-fluid">
-                    <div className="row no-gutters">
+                    <div className="row no-gutters mt-2">
                         <div className="col">
                             <div className="card bg-light border-0 shadow-lg mb-4">
                                 <img 
