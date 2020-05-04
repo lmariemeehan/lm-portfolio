@@ -74,8 +74,8 @@ class Projects extends React.Component {
                 <h2 className="text-center text-white"> Portfolio </h2>
                 <hr className="divider light my-4"/>
                 <div className="container-fluid">
-                    <div className="row no-gutters mt-2">
-                        <div className="col">
+                    <div className="row mt-2">
+                        <div className="col mx-2">
                             <div className="card bg-light border-0 shadow-lg mb-4">
                                 <img 
                                     className="card-img-top" 
@@ -93,7 +93,7 @@ class Projects extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
+                        <div className="col mx-2">
                             <div className="card bg-light border-0 shadow-lg mb-4"> 
                                 <img 
                                     className="card-img-top"
@@ -111,7 +111,7 @@ class Projects extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
+                        <div className="col mx-2">
                             <div className="card bg-light border-0 shadow-lg mb-4">
                                 <img 
                                     className="card-img-top" 
@@ -129,25 +129,25 @@ class Projects extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
-                        <div className="card bg-light border-0 shadow-lg">
-                            <img 
-                                className="card-img-top" 
-                                src="https://res.cloudinary.com/laurameehan/image/upload/v1585117001/pattern_3_forpgk.png" 
-                                alt="wikipedia pattern" />
-                            <div className="card-body text-center">
-                                <h3 className="card-title my-3"> InQuisitive </h3>
-                                <p className="card-text text-muted text-uppercase"> Node.js Wikipedia app </p>
-                                <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-blocipedia.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
-                                <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/InQuisitive" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
-                            </div>
-                            <div className="card-footer">
-                                <h5 className="text-center" onClick={this.handleInquisitiveClick}>Learn More <i class="fas fa-caret-down"></i></h5>
-                                {displayInquisitiveAbout}
+                        <div className="col mx-2">
+                            <div className="card bg-light border-0 shadow-lg">
+                                <img 
+                                    className="card-img-top" 
+                                    src="https://res.cloudinary.com/laurameehan/image/upload/v1585117001/pattern_3_forpgk.png" 
+                                    alt="wikipedia pattern" />
+                                <div className="card-body text-center">
+                                    <h3 className="card-title my-3"> InQuisitive </h3>
+                                    <p className="card-text text-muted text-uppercase"> Node.js Wikipedia app </p>
+                                    <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-blocipedia.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
+                                    <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/InQuisitive" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
+                                </div>
+                                <div className="card-footer">
+                                    <h5 className="text-center" onClick={this.handleInquisitiveClick}>Learn More <i class="fas fa-caret-down"></i></h5>
+                                    {displayInquisitiveAbout}
+                                </div>
                             </div>
                         </div>
-                        </div>
-                        <div className="col">
+                        <div className="col mx-2">
                             <div className="card bg-light border-0 shadow-lg">
                                 <img 
                                     className="card-img-top" 
