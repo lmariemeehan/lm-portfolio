@@ -65,6 +65,10 @@ hr.light {
 }
 
 .card {
+	a:hover {
+		background-color: $brightPurple;
+		border: $brightPurple;
+	}
 	.btn-lg:hover {
 		color: $brightPurple;
 		outline: $brightPurple;
