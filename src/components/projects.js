@@ -74,9 +74,9 @@ class Projects extends React.Component {
                 <h2 className="text-center text-white"> Portfolio </h2>
                 <hr className="divider light my-4"/>
                 <div className="container-fluid">
-                    <div className="row mt-2">
+                    <div className="row">
                         <div className="col mx-2">
-                            <div className="card bg-light border-0 shadow-lg mb-4">
+                            <div className="card bg-light border-0 shadow-lg my-4">
                                 <img 
                                     className="card-img-top" 
                                     src="https://res.cloudinary.com/laurameehan/image/upload/v1588020376/pattern_4_asdvwk.png" 
@@ -94,7 +94,7 @@ class Projects extends React.Component {
                             </div>
                         </div>
                         <div className="col mx-2">
-                            <div className="card bg-light border-0 shadow-lg mb-4"> 
+                            <div className="card bg-light border-0 shadow-lg my-4"> 
                                 <img 
                                     className="card-img-top"
                                     src="https://res.cloudinary.com/laurameehan/image/upload/v1585115417/pattern_tlysrn.png" 
@@ -112,7 +112,7 @@ class Projects extends React.Component {
                             </div>
                         </div>
                         <div className="col mx-2">
-                            <div className="card bg-light border-0 shadow-lg mb-4">
+                            <div className="card bg-light border-0 shadow-lg my-4">
                                 <img 
                                     className="card-img-top" 
                                     src="https://res.cloudinary.com/laurameehan/image/upload/v1588021203/pattern_5_rwm2vu.png" 
@@ -130,7 +130,7 @@ class Projects extends React.Component {
                             </div>
                         </div>
                         <div className="col mx-2">
-                            <div className="card bg-light border-0 shadow-lg mb-4">
+                            <div className="card bg-light border-0 shadow-lg my-4">
                                 <img 
                                     className="card-img-top" 
                                     src="https://res.cloudinary.com/laurameehan/image/upload/v1585117001/pattern_3_forpgk.png" 
@@ -148,7 +148,7 @@ class Projects extends React.Component {
                             </div>
                         </div>
                         <div className="col mx-2">
-                            <div className="card bg-light border-0 shadow-lg">
+                            <div className="card bg-light border-0 shadow-lg my-4">
                                 <img 
                                     className="card-img-top" 
                                     src="https://res.cloudinary.com/laurameehan/image/upload/v1588053902/pattern_6_f5b5tv.png" 
