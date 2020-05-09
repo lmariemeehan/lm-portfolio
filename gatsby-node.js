@@ -5,3 +5,6 @@
  */
 
 // You can delete this file if you're not using it
+exports.createPages = async function ({actions, graphql}) {
+    const {data} = await graphql
+}
