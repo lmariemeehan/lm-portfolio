@@ -12,7 +12,7 @@
 		.nav-item {
 			&.active {
 				.nav-link {
-					color: $primary !important;
+					color: $brightPurple !important;
 				}
 			}
 
@@ -24,7 +24,7 @@
 				padding: 0.75rem 0;
 				&:hover,
 				&:active {
-					color: $primary;
+					color: $brightPurple;
 				}
 			}
 		}
@@ -66,7 +66,7 @@
 		.navbar-brand {
 			color: $gray-900;
 			&:hover {
-				color: $primary;
+				color: $brightPurple;
 			}
 		}
 		.navbar-nav {
@@ -74,7 +74,7 @@
 				.nav-link {
 					color: $gray-900;
 					&:hover {
-						color: $primary;
+						color: $brightPurple;
 					}
 				}
 			}
