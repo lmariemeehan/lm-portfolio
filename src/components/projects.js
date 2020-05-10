@@ -101,14 +101,14 @@ class Projects extends React.Component {
                                     src="https://res.cloudinary.com/laurameehan/image/upload/v1585115417/pattern_tlysrn.png" 
                                     alt="music pattern" />
                                 <div className="card-body text-center">
-                                    <Link to="./resonate">Resonate Link</Link>
+                                    
                                     <h3 className="card-title my-3"> Resonate </h3>
                                     <p className="card-text text-muted text-uppercase"> React Music player</p>
                                     <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-bloc-jams-react.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                                     <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/Resonate" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                                 </div>
                                 <div className="card-footer text-center">
-                                    <button className="btn btn-lg" onClick={this.handleResonateClick} onKeyDown={this.handleResonateClick}>Learn More <i className="fas fa-caret-down"></i></button>
+                                    <Link to="./resonate">Learn More <i className="fas fa-caret-down"></i></Link>
                                     {displayResonateAbout}
                                 </div>
                             </div>
