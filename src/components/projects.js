@@ -4,6 +4,7 @@ import ResonateAbout from "./project-sections/resonate-about"
 import HelloAbout from "./project-sections/hello-about"
 import InQuisitiveAbout from "./project-sections/inquisitive-about"
 import InrecordAbout from "./project-sections/inrecord-about"
+import { Link } from "gatsby"
 
 class Projects extends React.Component {
     constructor() {
@@ -70,7 +71,7 @@ class Projects extends React.Component {
         let displayInrecordAbout = this.state.viewInrecord ? <InrecordAbout /> : null
 
         return (
-            <section className="bg-dark" id="projects">
+            <section className="bg-dark" id="portfolio">
                 <h2 className="text-center text-white"> Portfolio </h2>
                 <hr className="divider light my-4"/>
                 <div className="container-fluid">
@@ -100,6 +101,7 @@ class Projects extends React.Component {
                                     src="https://res.cloudinary.com/laurameehan/image/upload/v1585115417/pattern_tlysrn.png" 
                                     alt="music pattern" />
                                 <div className="card-body text-center">
+                                    <Link to="./resonate">Resonate Link</Link>
                                     <h3 className="card-title my-3"> Resonate </h3>
                                     <p className="card-text text-muted text-uppercase"> React Music player</p>
                                     <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-bloc-jams-react.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
