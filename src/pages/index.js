@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import Img from "gatsby-image"
 
 import Layout from "../components/layout"
+import Masthead from "../components/masthead"
 import SEO from "../components/seo"
 import Scroller from "../components/scroller"
 import About from "../components/about.js"
@@ -40,6 +41,7 @@ export default class IndexPage extends React.Component {
     return (
       <Layout>
         <SEO title="Laura Meehan"/>
+        <Masthead />
         <About />
         <Skills />
 
