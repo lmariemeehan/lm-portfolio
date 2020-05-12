@@ -112,11 +112,10 @@ class Projects extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-sm-6 align-self-center">
+                        <div className="col-lg-4 col-sm-6">
                             <div className="card mt-4 mx-2">
                                 <img src="https://res.cloudinary.com/laurameehan/image/upload/v1577870096/undraw_dev_focus_b9xo_gyh671.svg" alt="developer focusing on solving problems" />
                             </div>
-
                             <div className="card bg-light border-0 shadow-lg mt-4 mx-2">
                                 <img 
                                     className="card-img-top shadow" 
