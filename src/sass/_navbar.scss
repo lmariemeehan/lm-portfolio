@@ -60,7 +60,7 @@
 
 @include media-breakpoint-up(lg) {
 	// Navbar styling applied when the page is scrolled
-	.site-container.navbar-scrolled #mainNav {
+	.site-container.navbar-scrolled #mainNav{
 		box-shadow: $box-shadow;
 		background-color: $white;
 		.navbar-brand {

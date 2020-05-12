@@ -8,21 +8,19 @@ export default class Resonate extends React.Component {
     render() {
         return (
             <>
-                <Navbar className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav" expand="lg"
+                <Navbar className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="projectNav" expand="lg"
                 collapseOnSelect={true}>
                     <div className="container">
                         <Link to="/">Laura Meehan</Link>
                     </div>
                 </Navbar>
-                <header className="resonate-masthead">
-                    <div className="container h-100">
-                        <div className="row h-100">
-                            <img className="img-fluid" src="https://res.cloudinary.com/laurameehan/image/upload/v1589091412/Screen_Shot_2020-05-09_at_11.12.00_PM_kjjgts.png" alt="album page" />
-                        </div>
-                    </div>
-                </header>
                 <section className="page-section">
-                    <h2 className="text-center mt-0"> Resonate </h2>
+                    <img 
+                        className="img-fluid" 
+                        src="../images/portfolio/fullsize/2-resonate.jpg" 
+                        alt="album page"
+                    />
+                    <h2 className="text-center mt-4"> Resonate </h2>
                     <hr className="divider my-4"/>
                     <div className="container">
                         <p className="m-3"><span className="mr-2 font-weight-bold"> About: </span> 

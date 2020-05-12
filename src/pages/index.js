@@ -44,9 +44,9 @@ export default class IndexPage extends React.Component {
         <Masthead />
         <About />
         <Skills />
-
-        <section className="page-section bg-dark portfolio-slideshow">
         <Projects />
+
+        <section className="bg-dark portfolio-slideshow">
           <div className="container-fluid px-0 bg-dark">
             <div className="row no-gutters d-flex justify-content-center">
               <div className="col-lg-4 col-sm-6">

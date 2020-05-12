@@ -71,15 +71,15 @@ class Projects extends React.Component {
         let displayInrecordAbout = this.state.viewInrecord ? <InrecordAbout /> : null
 
         return (
-            <section className="bg-dark" id="portfolio">
+            <section className="page-section bg-dark" id="portfolio">
                 <h2 className="text-center text-white"> Portfolio </h2>
-                <hr className="divider light my-4"/>
-                <div className="container-fluid">
-                    <div className="row">
-                        <div className="col mx-2">
-                            <div className="card bg-light border-0 shadow-lg my-4">
+                <hr className="divider light mt-4"/>
+                <div className="container">
+                    <div className="row d-flex justify-content-center">
+                        <div className="col-lg-4 col-sm-6">
+                            <div className="card bg-light border-0 shadow-lg mt-4 mx-2">
                                 <img 
-                                    className="card-img-top" 
+                                    className="card-img-top shadow" 
                                     src="https://res.cloudinary.com/laurameehan/image/upload/v1588020376/pattern_4_asdvwk.png" 
                                     alt="chat pattern" />
                                 <div className="card-body text-center">
@@ -93,30 +93,33 @@ class Projects extends React.Component {
                                     {displayMemeAbout}
                                 </div>
                             </div>
-                        </div>
-                        <div className="col mx-2">
-                            <div className="card bg-light border-0 shadow-lg my-4"> 
-                                <img 
-                                    className="card-img-top"
-                                    src="https://res.cloudinary.com/laurameehan/image/upload/v1585115417/pattern_tlysrn.png" 
-                                    alt="music pattern" />
+                            <div className="card bg-light border-0 shadow-lg mt-4 mx-2"> 
+                                <Link to="./resonate">
+                                    <img 
+                                        className="card-img-top shadow"
+                                        src="https://res.cloudinary.com/laurameehan/image/upload/v1585115417/pattern_tlysrn.png" 
+                                        alt="music pattern" />
+                                </Link>
                                 <div className="card-body text-center">
-                                    
                                     <h3 className="card-title my-3"> Resonate </h3>
                                     <p className="card-text text-muted text-uppercase"> React Music player</p>
-                                    <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-bloc-jams-react.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
+                                    <a className="btn btn-primary card-link my-2" href="https://lmariemeehan-bloc-jams-react.herokuapp.com/" role="button" target="_blank" rel="noopener noreferrer">See it live </a>
                                     <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/Resonate" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                                 </div>
                                 <div className="card-footer text-center">
-                                    <Link to="./resonate">Learn More <i className="fas fa-caret-down"></i></Link>
+                                <button className="btn btn-lg" onClick={this.handleResonateClick} onKeyDown={this.handleResonateClick}>Learn More <i className="fas fa-caret-down"></i></button>
                                     {displayResonateAbout}
                                 </div>
                             </div>
                         </div>
-                        <div className="col mx-2">
-                            <div className="card bg-light border-0 shadow-lg my-4">
+                        <div className="col-lg-4 col-sm-6 align-self-center">
+                            <div className="card mt-4 mx-2">
+                                <img src="https://res.cloudinary.com/laurameehan/image/upload/v1577870096/undraw_dev_focus_b9xo_gyh671.svg" alt="developer focusing on solving problems" />
+                            </div>
+
+                            <div className="card bg-light border-0 shadow-lg mt-4 mx-2">
                                 <img 
-                                    className="card-img-top" 
+                                    className="card-img-top shadow" 
                                     src="https://res.cloudinary.com/laurameehan/image/upload/v1588021203/pattern_5_rwm2vu.png" 
                                     alt="chat pattern" />
                                 <div className="card-body text-center">
@@ -131,10 +134,10 @@ class Projects extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col mx-2">
-                            <div className="card bg-light border-0 shadow-lg my-4">
+                        <div className="col-lg-4 col-sm-6">
+                            <div className="card bg-light border-0 shadow-lg mt-4 mx-2">
                                 <img 
-                                    className="card-img-top" 
+                                    className="card-img-top shadow" 
                                     src="https://res.cloudinary.com/laurameehan/image/upload/v1585117001/pattern_3_forpgk.png" 
                                     alt="wikipedia pattern" />
                                 <div className="card-body text-center">
@@ -148,11 +151,9 @@ class Projects extends React.Component {
                                     {displayInquisitiveAbout}
                                 </div>
                             </div>
-                        </div>
-                        <div className="col mx-2">
-                            <div className="card bg-light border-0 shadow-lg my-4">
+                            <div className="card bg-light border-0 shadow-lg mt-4 mx-2">
                                 <img 
-                                    className="card-img-top" 
+                                    className="card-img-top shadow" 
                                     src="https://res.cloudinary.com/laurameehan/image/upload/v1588053902/pattern_6_f5b5tv.png" 
                                     alt="medical pattern" />
                                 <div className="card-body text-center">
