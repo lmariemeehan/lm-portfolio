@@ -94,12 +94,10 @@ class Projects extends React.Component {
                                 </div>
                             </div>
                             <div className="card bg-light border-0 shadow-lg mt-4 mx-2"> 
-                                <Link to="./resonate">
-                                    <img 
-                                        className="card-img-top shadow"
-                                        src="https://res.cloudinary.com/laurameehan/image/upload/v1585115417/pattern_tlysrn.png" 
-                                        alt="music pattern" />
-                                </Link>
+                                <img 
+                                    className="card-img-top shadow"
+                                    src="https://res.cloudinary.com/laurameehan/image/upload/v1585115417/pattern_tlysrn.png" 
+                                    alt="music pattern" />
                                 <div className="card-body text-center">
                                     <h3 className="card-title my-3"> Resonate </h3>
                                     <p className="card-text text-muted text-uppercase"> React Music player</p>
