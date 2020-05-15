@@ -83,7 +83,7 @@ class Projects extends React.Component {
                                     alt="chat pattern" />
                                 <div className="card-body text-center">
                                     <h3 className="card-title my-3"> Memes </h3>
-                                    <p className="card-text text-muted text-uppercase"> React Meme Generator app </p>
+                                    <p className="card-text text-muted text-uppercase"> React Meme Generator</p>
                                     <a className="btn btn-primary card-link my-2" href="https://lauras-memegenerator.netlify.app/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                                     <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/meme-generator" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                                 </div>
