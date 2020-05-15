@@ -4,7 +4,6 @@ import ResonateAbout from "./project-sections/resonate-about"
 import HelloAbout from "./project-sections/hello-about"
 import InQuisitiveAbout from "./project-sections/inquisitive-about"
 import InrecordAbout from "./project-sections/inrecord-about"
-import { Link } from "gatsby"
 
 class Projects extends React.Component {
     constructor() {
