@@ -83,7 +83,7 @@ class Projects extends React.Component {
                                     alt="chat pattern" />
                                 <div className="card-body text-center">
                                     <h3 className="card-title my-3"> Memes </h3>
-                                    <p className="card-text text-muted text-uppercase"> React Meme Generator</p>
+                                    <p className="card-text text-muted text-uppercase"> React Meme Generator </p>
                                     <a className="btn btn-primary card-link my-2" href="https://lauras-memegenerator.netlify.app/" role="button" target="_blank" rel="noopener noreferrer">See it live</a>
                                     <a className="btn btn-primary card-link my-2" href="https://github.com/lmariemeehan/meme-generator" role="button" target="_blank" rel="noopener noreferrer">See the code</a>
                                 </div>
@@ -110,24 +110,6 @@ class Projects extends React.Component {
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-6">
-                            <div className="card bg-light border-0 shadow-lg mt-4 mx-2"> 
-                                <img 
-                                    className="card-img-top shadow"
-                                    src="https://res.cloudinary.com/laurameehan/image/upload/v1585115417/pattern_tlysrn.png" 
-                                    alt="music pattern" />
-                                <div className="card-body text-center">
-                                    <h3 className="card-title my-3"> Mai's Thai Restaurant </h3>
-                                    <p className="card-text text-muted text-uppercase"> Wordpress website</p>
-                                    <a className="btn btn-primary card-link my-2" href="https://maisthairestaurant.wordpress.com/" role="button" target="_blank" rel="noopener noreferrer">See it live </a>
-                                </div>
-                                <div className="card-footer text-center">
-                                    <button className="btn btn-lg" onClick={this.handleResonateClick} onKeyDown={this.handleResonateClick}>Learn More <i className="fas fa-caret-down"></i></button>
-                                        {displayResonateAbout}
-                                </div>
-                            </div>
-                            <div className="card mt-4 mx-2">
-                                <img src="https://res.cloudinary.com/laurameehan/image/upload/v1577870096/undraw_dev_focus_b9xo_gyh671.svg" alt="developer focusing on solving problems" />
-                            </div>
                             <div className="card bg-light border-0 shadow-lg mt-4 mx-2">
                                 <img 
                                     className="card-img-top shadow" 
@@ -142,6 +124,24 @@ class Projects extends React.Component {
                                 <div className="card-footer text-center">
                                     <button className="btn btn-lg" onClick={this.handleHelloClick} onKeyDown={this.handleHelloClick}>Learn More <i className="fas fa-caret-down"></i></button>
                                     {displayHelloAbout}
+                                </div>
+                            </div>
+                            <div className="card mt-4 mx-2">
+                                <img className="devfocus-image py-4 px-2" src="https://res.cloudinary.com/laurameehan/image/upload/v1577870096/undraw_dev_focus_b9xo_gyh671.svg" alt="developer focusing on solving problems" />
+                            </div>
+                            <div className="card bg-light border-0 shadow-lg mt-4 mx-2"> 
+                                <img 
+                                    className="card-img-top shadow"
+                                    src="https://res.cloudinary.com/laurameehan/image/upload/v1585115417/pattern_tlysrn.png" 
+                                    alt="music pattern" />
+                                <div className="card-body text-center">
+                                    <h3 className="card-title my-3"> Mai's Thai Restaurant </h3>
+                                    <p className="card-text text-muted text-uppercase"> Wordpress website</p>
+                                    <a className="btn btn-primary card-link my-2" href="https://maisthairestaurant.wordpress.com/" role="button" target="_blank" rel="noopener noreferrer">See it live </a>
+                                </div>
+                                <div className="card-footer text-center">
+                                    <button className="btn btn-lg" onClick={this.handleResonateClick} onKeyDown={this.handleResonateClick}>Learn More <i className="fas fa-caret-down"></i></button>
+                                        {displayResonateAbout}
                                 </div>
                             </div>
                         </div>

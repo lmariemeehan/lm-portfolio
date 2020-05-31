@@ -114,6 +114,19 @@ export default class IndexPage extends React.Component {
                   </div>
                 </a>
               </div>
+              <div className="col-lg-4 col-sm-6">
+                <a className="portfolio-box" href="img/portfolio/fullsize/6-mais.jpg" onClick={this.handlePortfolioClick.bind(this, 5)}>
+                  <Img fluid={this.props.data.images.edges[5].node.childImageSharp.fluid}/>
+                  <div className="portfolio-box-caption">
+                    <div className="project-category text-white-50">
+                      Wordpress website
+                    </div>
+                    <div className="project-name">
+                      Mai's Thai Restaurant
+                    </div>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </section>
