@@ -132,7 +132,7 @@ class Projects extends React.Component {
                             <div className="card bg-light border-0 shadow-lg mt-4 mx-2"> 
                                 <img 
                                     className="card-img-top shadow"
-                                    src="https://res.cloudinary.com/laurameehan/image/upload/v1585115417/pattern_tlysrn.png" 
+                                    src="https://res.cloudinary.com/laurameehan/image/upload/v1590969139/pattern_zixavq.svg" 
                                     alt="music pattern" />
                                 <div className="card-body text-center">
                                     <h3 className="card-title my-3"> Mai's Thai Restaurant </h3>
