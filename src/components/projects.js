@@ -4,6 +4,7 @@ import ResonateAbout from "./project-sections/resonate-about"
 import HelloAbout from "./project-sections/hello-about"
 import InQuisitiveAbout from "./project-sections/inquisitive-about"
 import InrecordAbout from "./project-sections/inrecord-about"
+import MaisThaiAbout from "./project-sections/maisthai-about"
 
 class Projects extends React.Component {
     constructor() {
@@ -13,13 +14,15 @@ class Projects extends React.Component {
             viewResonate: false,
             viewHello: false,
             viewInquisitive: false,
-            viewInrecord: false
+            viewInrecord: false,
+            viewMaisThai: false
         }
         this.handleMemeClick = this.handleMemeClick.bind(this)
         this.handleResonateClick = this.handleResonateClick.bind(this)
         this.handleHelloClick = this.handleHelloClick.bind(this)
         this.handleInquisitiveClick = this.handleInquisitiveClick.bind(this)
         this.handleInrecordClick = this.handleInrecordClick.bind(this)
+        this.handleMaisThaiClick = this.handleMaisThaiClick.bind(this)
     }
 
     handleMemeClick() {
@@ -62,12 +65,21 @@ class Projects extends React.Component {
         })
     }
 
+    handleMaisThaiClick() {
+        this.setState(prevState => {
+            return {
+                viewMaisThai: !prevState.viewMaisThai
+            }
+        })
+    }
+
     render() {
         let displayMemeAbout = this.state.viewMeme ? <MemeAbout /> : null
         let displayResonateAbout = this.state.viewResonate ? <ResonateAbout /> : null
         let displayHelloAbout = this.state.viewHello ? <HelloAbout /> : null
         let displayInquisitiveAbout = this.state.viewInquisitive ? <InQuisitiveAbout /> : null
         let displayInrecordAbout = this.state.viewInrecord ? <InrecordAbout /> : null
+        let displayMaisThaiAbout = this.state.viewMaisThai ? <MaisThaiAbout /> : null
 
         return (
             <section className="page-section bg-dark" id="portfolio">
@@ -140,8 +152,8 @@ class Projects extends React.Component {
                                     <a className="btn btn-primary card-link my-2" href="https://maisthairestaurant.wordpress.com/" role="button" target="_blank" rel="noopener noreferrer">See it live </a>
                                 </div>
                                 <div className="card-footer text-center">
-                                    <button className="btn btn-lg" onClick={this.handleResonateClick} onKeyDown={this.handleResonateClick}>Learn More <i className="fas fa-caret-down"></i></button>
-                                        {displayResonateAbout}
+                                    <button className="btn btn-lg" onClick={this.handleMaisThaiClick} onKeyDown={this.handleMaisThaiClick}>Learn More <i className="fas fa-caret-down"></i></button>
+                                        {displayMaisThaiAbout}
                                 </div>
                             </div>
                         </div>
