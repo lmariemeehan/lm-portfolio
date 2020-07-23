@@ -11,6 +11,8 @@ import expressIcon from "@iconify/icons-logos/express"
 import mysqlIcon from "@iconify/icons-logos/mysql"
 import consoleSqlOutlined from "@iconify/icons-ant-design/console-sql-outlined"
 import responsiveIcon from "@iconify/icons-mdi/responsive"
+import wordpressIcon from "@iconify/icons-simple-icons/wordpress"
+import seoIcon from "@iconify/icons-whh/seo"
 
 function Skills() {
     return (
@@ -79,6 +81,8 @@ function Skills() {
                     alt="jasmine testing icon" />Jasmine Testing</p>
                 <p className="text-muted mb-0"><i className="fas fa-sitemap mr-2"></i>MVC Architecture</p>
                 <p className="text-muted mb-0"><i className="fas fa-universal-access mr-2"></i>Web Accessible</p>
+                <p className="text-muted mb-0"><Icon className="mr-2" icon={seoIcon} />SEO - Search Engine Optimization</p>
+                <p className="text-muted mb-0"><Icon className="mr-2" icon={wordpressIcon} />CMS - Wordpress</p>
               </div>
             </div>
           </div>
