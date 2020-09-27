@@ -13,6 +13,7 @@ import consoleSqlOutlined from "@iconify/icons-ant-design/console-sql-outlined"
 import responsiveIcon from "@iconify/icons-mdi/responsive"
 import wordpressIcon from "@iconify/icons-simple-icons/wordpress"
 import seoIcon from "@iconify/icons-whh/seo"
+import figmaIcon from "@iconify/icons-simple-icons/figma"
 
 function Skills() {
     return (
@@ -50,6 +51,7 @@ function Skills() {
                 <i className="fas fa-4x fa-tools text-primary mb-4"></i>
                 <h3 className="h4 mb-2">  Tools </h3>
                 <p className="text-muted mb-0"><i className="fab fa-github mr-2"></i>Github</p>
+                <p className="text-muted mb-0"><Icon className="mr-2" icon={figmaIcon} />Figma</p>
                 <p className="text-muted mb-0"><i className="fab fa-trello mr-2"></i>Trello</p>
                 <p className="text-muted mb-0"><Icon className="mr-2" icon={herokuIcon} />Heroku</p>
                 <p className="text-muted mb-0"><Icon className="mr-2" icon={firebaseIcon} />Firebase</p>
