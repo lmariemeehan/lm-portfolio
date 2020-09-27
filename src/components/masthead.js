@@ -11,7 +11,7 @@ export default class Masthead extends React.Component {
                         </h1>
                     </div>
                     <div className="col-lg-8 align-self-baseline">
-                    <p className="text-white-75 font-weight-light mb-5 animate__animated animate__bounce">I'm a full-stack web developer specializing in Isomorphic JavaScript.</p>
+                    <p className="text-white-75 font-weight-light mb-5 animate__animated animate__bounce">I'm a full-stack JavaScript web developer.</p>
                     </div>
                 </div>
                 </div>
