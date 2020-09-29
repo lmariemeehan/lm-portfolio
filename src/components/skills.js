@@ -55,13 +55,14 @@ function Skills() {
                 <p className="text-muted mb-0"><i className="fab fa-trello mr-2"></i>Trello</p>
                 <p className="text-muted mb-0"><Icon className="mr-2" icon={herokuIcon} />Heroku</p>
                 <p className="text-muted mb-0"><Icon className="mr-2" icon={firebaseIcon} />Firebase</p>
-                <p className="text-muted mb-0"><Icon className="mr-2" icon={postgresqlIcon} />PostgreSQL</p>
-                <p className="text-muted mb-0"><Icon className="mr-2" icon={mysqlIcon} id="mysql"/>MySQL</p>
+                <p className="text-muted mb-0"><i className="fab fa-aws mr-2"></i>AWS - S3</p>
                 <p className="text-muted mb-0">
                   <img 
                     className="mr-2"
                     src="https://res.cloudinary.com/laurameehan/image/upload/c_scale,co_rgb:6c757d,e_grayscale,h_16,w_16/v1573537737/samples/cloudinary-icon.png" 
                     alt="cloudinary icon" />Cloudinary</p>
+                <p className="text-muted mb-0"><Icon className="mr-2" icon={postgresqlIcon} />PostgreSQL</p>
+                <p className="text-muted mb-0"><Icon className="mr-2" icon={mysqlIcon} id="mysql"/>MySQL</p>
                 <p className="text-muted mb-0">
                   <img 
                     className="mr-2" 
