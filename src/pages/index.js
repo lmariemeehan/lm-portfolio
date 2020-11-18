@@ -40,7 +40,7 @@ export default class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <SEO title="Laura Meehan"/>
+        <SEO title="Laura Meehan | Web developer and designer"/>
         <Masthead />
         <About />
         <Skills />
