@@ -149,7 +149,7 @@ class Projects extends React.Component {
                                 <div className="card-body text-center">
                                     <h3 className="card-title my-3"> Mai's Thai Restaurant </h3>
                                     <p className="card-text text-muted text-uppercase"> Custom Wordpress Site</p>
-                                    <a className="btn btn-primary card-link my-2" href="https://maisthairestaurant.wordpress.com/" role="button" target="_blank" rel="noopener noreferrer">See it live </a>
+                                    <a className="btn btn-primary card-link my-2" href="https://maisthairestaurant.com/" role="button" target="_blank" rel="noopener noreferrer">See it live </a>
                                 </div>
                                 <div className="card-footer text-center">
                                     <button className="btn btn-lg" onClick={this.handleMaisThaiClick} onKeyDown={this.handleMaisThaiClick}>Learn More <i className="fas fa-caret-down"></i></button>
