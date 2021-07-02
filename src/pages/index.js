@@ -122,7 +122,7 @@ export default class IndexPage extends React.Component {
                       Wordpress website
                     </div>
                     <div className="project-name">
-                      Mai's Thai Restaurant
+                      Mai&apos;s Thai Restaurant
                     </div>
                   </div>
                 </a>
